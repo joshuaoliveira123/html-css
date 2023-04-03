@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagem Flexivel</title>
+</head>
+<body>
+    <h1>Desafio da imagem flexivel</h1>
+    <p>Segue abaixo uma imagem flexivel com cortes.</p>
+    <picture>
+        <source media="(min-width: 550px)" srcset="imagens/foto-g.jpg" type="image/jpg">
+        <source media="(min-width: 350px)" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <source media="(min-width: 200px)" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <img src="imagens/foto-g.jpg" alt="Exemplo de Paisagem">
+    </picture>
+</body>
+</html>

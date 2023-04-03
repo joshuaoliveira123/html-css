@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    
+/*
+    Medidas Absolutas;
+        cm, mm, in, px (recomendado), pt e pc.
+
+    Medidas Relativas;
+        em (recomendado), ex, rem, vw, vh, 0~100%. 
+            geralmente, 1em = 16px.
+*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Shorthand
+        font:'font-style'->'font-weight'->'font-size'->'font-family'
+    Exemplo
+        font: italic bold 3em Arial, Helvetica, sans-serif;
+    */
+}
+
+h2 {
+    font: bold 2em Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+}

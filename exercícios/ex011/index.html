@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas, vídeos e áudios</h1><hr>
+
+    <p>Vamos ver como mexer com imagens dinânmicas, vídeos e áudios. Além, de transformar o site em responsivo.</p>
+
+    <h2>Imagens dinâmicas</h2>
+
+    <p>Tente abrir esse site em vários dispositivos diferentes, com telas de tamanhos diferentes.</p>
+
+    <!--<picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto flexível">
+    </picture>-->
+
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+        <source media="(min-width: 350px)" srcset="imagens/foto-p.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel2">
+    </picture>
+
+    <h2>Áudio</h2>
+
+    <p>Vamos aprender a reproduzir áudios no seu site.</p><hr><!--MP3, WAV, OGG-->
+    
+    <!--Maneira mais simples-->
+
+    <h3>Áudio mais simples, menor compatibilidade</h3>
+
+    <audio src="midia/AViVA - NEVER ENOUGH.mp3" controls></audio>
+
+    <!--Maneira mais indicada e mais responsiva-->
+
+    <h3>Áudio indicado, maior compatibilidade</h3>
+
+    <audio preload="metadata" controls>
+        <source src="midia/AViVA - NEVER ENOUGH.mp3" type="audio/mpeg">
+        <p>Se não funcionar, pode baixar a música em MP3 clicando <a href="midia/AViVA - NEVER ENOUGH.mp3" type="audio/mpeg" target="_blank">AQUI</a></p>
+    </audio><hr>
+    
+</body>
+</html> 

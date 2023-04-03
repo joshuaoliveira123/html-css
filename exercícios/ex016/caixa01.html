@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{ /*box-level*/
+            background-color: blanchedalmond;
+
+            height: 150px;
+            width: 150px;
+
+            border: solid 10px darkgray;
+
+            padding: 10px;
+
+            /* SHORT OF SHORTHAND
+                padding: 10px 10px 10px 10px;
+            */
+
+            margin: 20px 20px 40px 20px;
+
+            /* CENTRALIZING WITH MARGIN
+                margin: auto;
+                    margin: auto auto auto auto;
+                margin: 10px auto;
+                    margin: 10px auto 10px auto;
+            */
+
+            outline: dashed 5px blueviolet;
+
+            /* FOR SHORTHANDS
+                border-style: solid;
+                border-width: 10px;
+                border-color: darkgray;
+                    border: style width color;
+
+                padding-top: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                    padding: top right bottom left;
+
+                margin-top: 20px;
+                margin-right: 20px;
+                margin-bottom: 40px;
+                margin-left: 20px;
+                    margin: top right bottom left;
+
+                outline-style: dashed;
+                outline-width: 5px;
+                outline-color: blueviolet;
+                    outline: style width color;
+            */
+        }
+
+        a{/*inline-level*/
+            border: ridge 5px red;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="1">Título</h1>
+    <p>
+        Os paragrafos são exemplos de box-level também, mas os <a href="#1">links</a> são exemplos de inline-level.
+    </p>
+</html>

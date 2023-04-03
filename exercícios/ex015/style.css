@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+Em HTML, id=, no CSS é #
+Em HTML, class=, no CSS é .
+*/
+
+body{
+    background-image: linear-gradient(to right, #A0D7F5, #8FC0DB);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+    box-shadow: 3px 3px 15px #4f6a79ad;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    
+}
+
+h1{
+    color: #232F36;
+}
+
+#principal{
+    text-align: center;
+    background-color: #232F36;
+    color: white;
+}
+
+h2{
+   color: #4C6775;
+}
+
+.basico{
+    color: #4c754c;
+}
+
+.intermediario{
+    color: #75724c;
+}
+
+.avancado{
+    color: #754c4c;
+}
+
+.destaque{
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+    text-indent: 47px;
+}

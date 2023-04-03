@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de carácteres</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte e pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em javascript.</p>
+    <code><hr>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR')
+        else:
+            print(f'O número {num} é IMPAR')
+        print('Fim do programa')
+    </code><hr> <!--Sem indentação, tudo um do lado do outro. Para indentar tudo precisa estar em uma envelopamento de <pre></pre>, tipo uma <div></div>-->
+    <p>Texto acima é ele sem indentação correta do python. Agora segue a maneira indentada do código.</p>
+    <pre><code><hr>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR')
+    print('Fim do programa')
+    </code></pre><hr>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo do Guanabara: <q>O computador é um burro muito rápido.</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo o livro <strong>O mundo é inrrelevante</strong> do Pedrinho PVP:</p>
+    <blockquote cite="htpps://www.livroPedrinho PVP.com/livrodopedrinho">
+        <q>Tudo na vida, vai depender do quão forte tu consegue clicar no mouse, porque ninguém liga se tu tem um ping ruim ou um computador simples que roda o jogo a poucos fps.</q>
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Um exemplo disso é o proprio <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> que se tu passar o mouse em cima, vai trazer o nome completo da abreviação.</p>
+    <h2>Texto invertido (bem inútil para falar a verdade)</h2>
+    <p><bdo dir="rtl">Estou aprendendo o básico sobre o HTML e por enquanto não ví quase nada sobre CSS, mas estou a aprender lentamente.</bdo></p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos em HTML5</h1><hr>
+
+    <p>Vamos aprender a inserir vídeos com o html.</p>
+
+    <h2>Vídeos hospedados localmente</h2>
+
+    <p>Esses vídeo abaixo está hospedado em diferentes formatos e em meu sdd.</p>
+
+    <!--
+        Exemplo mais simples:
+
+    <video src="midia/Video-Pexels.mp4" width="500px" controls loop autoplay></video>
+    s-->
+
+    <!--Esse metodo abaixo é relacionado a hospedagem local, CARO e PESADO.-->
+
+    <video preload="metadata" poster="imagens/tumbnail-video.png" loop controls width="560px">
+        <source src="midia/Video-Pexels.mp4" type="video/mp4">
+        <source src="midia/video-pexels-original.mp4" type="video/mp4">
+        <source src="midia/Video-Pexels-720p30.webm" type="video/webm">
+        <source src="midia/Video-Pexels.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com nenhum dos formatos de vídeo disponibilizados no site. Click <a href="midia/Video-Pexels.mp4" download="Video-Pexels.mp4" type="video/mp4" target="_blank">AQUI</a> para baixar um arquivo Mp4 do vídeo.</p>
+    </video>
+
+    <h2>Vídeos hospedados externamente</h2>
+
+    <p>Esse vídeo abaixo é hospedado em um servidor externo do Youtube:</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <p>Esse vídeo abaixo é hospedado em um servidor externo do Vimeo:</p>
+
+    <iframe src="https://player.vimeo.com/video/29844795?h=f0a1764666&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

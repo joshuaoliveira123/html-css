@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header{
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            margin: 10px 10px 0px 10px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        header > h1{
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+            text-shadow: 0px 2px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        nav{
+            background-color: rgb(78, 78, 76);
+            text-align: center;
+            padding: 3px;
+            border-radius: 3px;
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0px 30px 0px auto;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: lightskyblue;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 0px 10px 10px 10px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px 10px;
+            border-radius: 10px;
+            margin: 15px auto;
+        }
+
+        article > h2{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        article > p{
+            text-indent: 47px;
+        }
+
+        article > h2:hover{
+            text-decoration: underline;
+        }
+
+        article:hover{
+            box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        article > aside{
+            background-color: rgb(160, 158, 158);
+            text-align: center;
+            border-radius: 20px;
+            margin: 10px auto;
+        }
+
+        article > aside:hover{
+            box-shadow: 5px 5px 15px rgba(78, 78, 78, 0.2);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site de Coisas</h1>
+        <nav>
+            <a href="#">Links para coisas.</a>
+            <a href="#">Links para coisas.</a>
+            <a href="#">Links para coisas.</a>
+            <a href="#">Links para coisas.</a>
+            <a href="#">Links para coisas.</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>
+                Noticias de Coisas
+            </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre coisas</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, consequuntur. Fugit voluptatibus dolor quisquam consequuntur similique, quibusdam porro eveniet excepturi facilis! Fugiat, possimus. Doloribus placeat, nulla unde possimus eos cum.
+                </p>
+                <aside>
+                    <p>
+                        Artigo escrito por José
+                    </p>
+                </aside>
+            </article>
+            <article>
+                <h2>Noticias das coisas</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi optio voluptatem odit non fugit ex veniam repellendus eius, tempore voluptatum vitae omnis ut suscipit dolorum eaque beatae dicta esse totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, a fugit aperiam incidunt ut sed obcaecati ipsam sit, dignissimos molestiae iusto dolores natus voluptas harum, consectetur cumque iste dicta alias.
+                </p>
+                <aside>
+                    <p>
+                        Artigo escrito por Carlos
+                    </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desenvolvido por Joshua de Oliveira.
+        </p>
+    </footer>
+    
+</body>
+</html>
