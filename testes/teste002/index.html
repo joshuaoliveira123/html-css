@@ -23,6 +23,15 @@
             background-color: rgba(103, 33, 168, 0.24);
         }
 
+        a:first-child::after{
+            content: 'Click especial.';
+            background-color: rgba(43, 226, 52, 0.26);
+        }
+
+        a:nth-child(4)::after{
+            background-color: rgba(43, 214, 226, 0.116);
+        }
+
         :any-link::after{
             content: 'Click em mim.';
         }
