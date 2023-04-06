@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcação de texto</title>
+    <style>
+        ::selection{
+            background-color: rgba(255, 0, 0, 0.322);
+        }
+
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover{
+            background-color: rgba(137, 43, 226, 0.116);
+        }
+
+        a:active{
+            background-color: rgba(103, 33, 168, 0.24);
+        }
+
+        :any-link::after{
+            content: 'Click em mim.';
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Título
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quae tempore deserunt in eius nulla nam dolor inventore, magni eos optio iure, exercitationem iste non cumque fugit tenetur repudiandae voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non obcaecati nam ullam facere et, voluptas ipsam expedita sint voluptates vero! Dolores, soluta. Officiis quis ratione libero voluptate reiciendis nulla doloremque?
+    </p>
+    <div class="links">
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ut, corporis explicabo molestias eaque ab, nobis nihil eveniet omnis id sequi ipsam eligendi. Similique error at, odio quaerat perspiciatis iure.
+    </p>
+</body>
+</html>
