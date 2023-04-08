@@ -17,7 +17,7 @@ Professor _**Gustavo Guanabara**_
 
 Veja os desafios funcionando abaixo:
 
-* [d001](joshuaoliveira123\html-css\desafios\d001\index.html);
+* [d001](html-css\desafios\d001\index.html);
 * [d002](desafios\d002\index.html);
 * [d003](desafios\d003\index.html);
 * [d004](desafios\d004\index.html);
