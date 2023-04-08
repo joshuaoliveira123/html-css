@@ -15,7 +15,7 @@ Professor _**Gustavo Guanabara**_
 ---
 ## Desafios
 
-Veja os desafios funcionando abaixo:
+Veja os códigos dos desafios abaixo:
 
 * [d001](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d001);
 * [d002](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d002);
@@ -30,7 +30,7 @@ Veja os desafios funcionando abaixo:
 
 ## Execícios
 
-Veja os exercicios funcionando abaixo:
+Veja os códigos dos execícios abaixo:
 
 * [ex001](exercícios\ex001\index.html);
 * [ex002](exercícios\ex002\index.html);
@@ -58,7 +58,7 @@ Veja os exercicios funcionando abaixo:
 
 ## Testes
 
-Veja os testes funcionando abaixo:
+Veja os códigos dos testes abaixo:
 
 * [teste001](testes\teste001\index.html); e
 * [teste002](testes\teste002\index.html).
