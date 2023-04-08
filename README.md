@@ -32,33 +32,33 @@ Veja os códigos dos desafios abaixo:
 
 Veja os códigos dos execícios abaixo:
 
-* [ex001](exercícios\ex001\index.html);
-* [ex002](exercícios\ex002\index.html);
-* [ex003](exercícios\ex003\index.html);
-* [ex004](exercícios\ex004\index.html);
-* [ex005](exercícios\ex005\index.html);
-* [ex006](exercícios\ex006\index.html);
-* [ex007](exercícios\ex007\index.html);
-* [ex008](exercícios\ex008\index.html);
-* [ex008a](exercícios\ex008a\index.html);
-* [ex009](exercícios\ex009\index.html);
-* [ex010](exercícios\ex010\index.html);
-* [ex011](exercícios\ex011\index.html);
-* [ex011a](exercícios\ex011a\index.html);
-* [ex012](exercícios\ex012\index.html);
-* [ex012a](exercícios\ex012a\index.html);
-* [ex012b](exercícios\ex012b\index.html);
-* [ex013](exercícios\ex013\index.html);
-* [ex014](exercícios\ex014\index.html);
-* [ex014a](exercícios\ex014a\index.html);
-* [ex015](exercícios\ex015\index.html);
-* [ex015a](exercícios\ex015a\index.html);
-* [ex016](exercícios\ex016\index.html); e
-* [ex017](exercícios\ex017\index.html).
+* [ex001](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex001);
+* [ex002](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex002);
+* [ex003](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex003);
+* [ex004](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex004);
+* [ex005](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex005);
+* [ex006](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex006);
+* [ex007](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex007);
+* [ex008](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex008);
+* [ex008a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex008a);
+* [ex009](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex009);
+* [ex010](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex010);
+* [ex011](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex011);
+* [ex011a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex011a);
+* [ex012](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex012);
+* [ex012a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex012a);
+* [ex012b](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex012b);
+* [ex013](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex013);
+* [ex014](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex014);
+* [ex014a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex014a);
+* [ex015](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex015);
+* [ex015a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex015a);
+* [ex016](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex016); e
+* [ex017](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex017).
 
 ## Testes
 
 Veja os códigos dos testes abaixo:
 
-* [teste001](testes\teste001\index.html); e
-* [teste002](testes\teste002\index.html).
+* [teste001](https://github.com/joshuaoliveira123/html-css/tree/main/testes/teste001); e
+* [teste002](https://github.com/joshuaoliveira123/html-css/tree/main/testes/teste002).
