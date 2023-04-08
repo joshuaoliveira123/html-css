@@ -17,16 +17,16 @@ Professor _**Gustavo Guanabara**_
 
 Veja os desafios funcionando abaixo:
 
-* [d001](joshuaoliveira123\html-css\desafios\d001\index.html);
-* [d002](desafios\d002\index.html);
-* [d003](desafios\d003\index.html);
-* [d004](desafios\d004\index.html);
-* [d005](desafios\d005\index.html);
-* [d006](desafios\d006\index.html);
-* [d007](desafios\d007\index.html);
-* [d008](desafios\d008\index.html);
-* [d009](desafios\d009\index.html); e
-* [d010](desafios\d010\index.html).
+* [d001](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d001);
+* [d002](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d002);
+* [d003](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d003);
+* [d004](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d004);
+* [d005](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d005);
+* [d006](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d006);
+* [d007](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d007);
+* [d008](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d008);
+* [d009](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d009); e
+* [d010](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d010).
 
 ## Execícios
 
