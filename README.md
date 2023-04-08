@@ -30,7 +30,7 @@ Veja os códigos dos desafios abaixo:
 
 ## Execícios
 
-Veja os códigos dos execícios abaixo:
+Veja os códigos dos exercícios abaixo:
 
 * [ex001](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex001);
 * [ex002](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex002);
