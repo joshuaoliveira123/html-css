@@ -27,7 +27,20 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 ## - [x] Modulo 2
 ---
 
-* [ex013 - cores01](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/cores01.html)
+* [ex013 - cores01](https://joshuaoliveira123.github.io/html-css/exercícios/ex013/cores01.html)
+* [ex013 - cores02](https://joshuaoliveira123.github.io/html-css/exercícios/ex013/cores01.html)
+* [ex013 - cores03](https://joshuaoliveira123.github.io/html-css/exercícios/ex013/cores01.html)
+* [ex014](https://joshuaoliveira123.github.io/html-css/exercícios/ex014)
+* [ex014a - fonte01](https://joshuaoliveira123.github.io/html-css/exercícios/ex014a/fonte01.html)
+* [ex014a - fonte02](https://joshuaoliveira123.github.io/html-css/exercícios/ex014a/fonte02.html)
+* [ex014a - fonte03](https://joshuaoliveira123.github.io/html-css/exercícios/ex014a/fonte03.html)
+* [ex015](https://joshuaoliveira123.github.io/html-css/exercícios/ex015/seletor01.html)
+* [ex015a](https://joshuaoliveira123.github.io/html-css/exercícios/ex015a)
+* [ex015a - hover](https://joshuaoliveira123.github.io/html-css/exercícios/ex015a/hover.html)
+* [ex015a - links](https://joshuaoliveira123.github.io/html-css/exercícios/ex015a/links.html)
+* [ex016 - caixa01](https://joshuaoliveira123.github.io/html-css/exercícios/ex016/caixa01.html)
+* [ex016 - caixa02](https://joshuaoliveira123.github.io/html-css/exercícios/ex016/caixa02.html)
+* [ex017](https://joshuaoliveira123.github.io/html-css/exercícios/ex017)
 
 ---
 ## - [ ] Modulo 3
