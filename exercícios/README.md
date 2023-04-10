@@ -45,7 +45,7 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 ---
 ## - [ ] Modulo 3
 ---
-* [ex018](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex018/git-github);
+* [ex018](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex018/git-github.txt);
 * [ex019 - fundo001](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/fundo001.html);
 * [ex019 - fundo002](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/fundo002.html);
 * [ex019 - fundo003](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/fundo003.html);

@@ -1,5 +1,0 @@
-Esses exercicios* são relativos ao segundo modulo do curso em HTML-5 e CSS-3 do Gustavo Guanabara.
-
-Referentes: ex 013 ~ ex 017 (d010).
-
-Do Canal cursoemvideo : https://www.youtube.com/cursoemvideo.
