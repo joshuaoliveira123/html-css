@@ -55,6 +55,8 @@ Veja os códigos dos exercícios abaixo:
 * [ex015a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex015a);
 * [ex016](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex016); e
 * [ex017](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex017).
+* [ex018](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex018).
+* [ex019](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex019).
 
 ## Testes
 
