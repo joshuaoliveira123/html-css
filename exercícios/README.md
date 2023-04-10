@@ -18,7 +18,7 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 ## - [ ] Modulo 3
 ---
 
-* [ex000](https://joshuaoliveira123.github.io/)
+* [ex019 - fundo007](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/fundo007.html)
 
 ---
 ## - [ ] Modulo 4
