@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Passion One", cursive;
+    --font3: cursive;
+}
+
+body{
+    background: #a9a9a9;
+    font: normal normal 1em var(--font1);
+}
+
+#cabecalho{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#titulo-principal{
+    font-size: 3em;
+    font-family: var(--font2);
+}
+
+#cabecalho p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#cabecalho p a:hover{
+    text-decoration: underline;
+}
+
+#main{
+    background: white;
+    padding: 20px;
+}
+
+.cordel-texto p{
+    background: transparent;
+    margin: 40px 0px;
+}
+
+.imagem{
+    background: black url('../imagens/background001.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+
+.imagem p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 10px;
+}
+
+#rodape{
+    background: black;
+    font-size: 0.8em;
+}
+
+#rodape p{
+    color: white;
+    text-align: center;
+}
+
+#rodape a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#rodape a:hover{
+    text-decoration: underline;
+}
