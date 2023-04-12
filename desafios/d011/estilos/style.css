@@ -5,18 +5,20 @@
     margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
 :root{
-    --font1: Verdana, Geneva, Tahoma, sans-serif;
-    --font2: "Passion One", cursive;
-    --font3: cursive;
+    --font1: Verdana, geneva, Tahoma, sans-serif;
+    --font2: 'Roboto Mono', monospace;
+    --font3: 'Nova Mono', monospace;
 }
 
 html, body{
     min-height: 100vh;
     background: #a9a9a9;
-    font: normal normal 1em var(--font1);
+    font-family: var(--font1);
 }
 
 #cabecalho{
@@ -28,6 +30,7 @@ html, body{
 #titulo-principal{
     padding: 50px 0 0 0;
     font-family: var(--font2);
+    font-size: 10vw;
     font-variant: small-caps;
 }
 
@@ -48,6 +51,8 @@ html, body{
 section{
     padding: 10vh 5vw;
     line-height: 2em;
+    font-family: var(--font3);
+    font-size: 3vw;
 }
 
 .normal{
@@ -62,8 +67,9 @@ section{
 }
 
 .imagem > p{
-    width: 350px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.3);
+    padding: 2.5% 5% 2.5% 0;
 }
 
 .joaninha{
