@@ -13,7 +13,8 @@
     --font3: cursive;
 }
 
-body{
+html, body{
+    min-height: 100vh;
     background: #a9a9a9;
     font: normal normal 1em var(--font1);
 }
@@ -22,62 +23,62 @@ body{
     background: black;
     color: white;
     text-align: center;
-    padding: 20px;
 }
 
 #titulo-principal{
-    font-size: 3em;
+    padding: 50px 0 0 0;
     font-family: var(--font2);
+    font-variant: small-caps;
 }
 
-#cabecalho p a{
+#cabecalho > p{
+    padding: 0 0 50px 0;
+}
+
+#cabecalho a, #rodape a{
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-#cabecalho p a:hover{
+#cabecalho a:hover, #rodape a:hover{
     text-decoration: underline;
 }
 
-#main{
-    background: white;
-    padding: 20px;
+section{
+    padding: 10vh 5vw;
+    line-height: 2em;
 }
 
-.cordel-texto p{
-    background: transparent;
-    margin: 40px 0px;
+.normal{
+    background-color: white;
+    color: black;
 }
 
 .imagem{
+    background-color: black;
+    color: white;
+}
+
+.imagem > p{
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.joaninha{
     background: black url('../imagens/background001.jpg') center no-repeat fixed;
     background-size: cover;
 }
 
-.imagem p{
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    padding: 10px;
+.papel{
+    background: black url('../imagens/background002.jpg') center no-repeat fixed;
+    background-size: cover;
 }
 
 #rodape{
     background: black;
-    font-size: 0.8em;
-}
-
-#rodape p{
-    color: white;
     text-align: center;
-}
-
-#rodape a{
     color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#rodape a:hover{
-    text-decoration: underline;
+    font-size: 0.8em;
+    padding: 10px;
 }
