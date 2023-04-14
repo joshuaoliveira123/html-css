@@ -55,7 +55,7 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 * [ex019 - fundo006a](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/fundo006a.html);
 * [ex019 - fundo007](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/fundo007.html);
 * [ex020](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex020/projeto-cordel.txt); e
-* [ex021 - tabela01](https://joshuaoliveira123/html-css/exercícios/ex021/tabela01.html)
+* [ex021 - tabela01](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela01.html).
 
 ---
 ## - [ ] Modulo 4
