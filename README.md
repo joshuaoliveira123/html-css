@@ -25,9 +25,9 @@ Veja os códigos dos desafios abaixo:
 * [d006](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d006);
 * [d007](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d007);
 * [d008](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d008);
-* [d009](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d009); e
-* [d010](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d010).
-* [d011](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d011).
+* [d009](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d009);
+* [d010](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d010);
+* [d011](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d011); e
 * [d012](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d012).
 
 ## Execícios
@@ -55,10 +55,10 @@ Veja os códigos dos exercícios abaixo:
 * [ex014a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex014a);
 * [ex015](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex015);
 * [ex015a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex015a);
-* [ex016](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex016); e
+* [ex016](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex016);
 * [ex017](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex017).
-* [ex018](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex018).
-* [ex019](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex019).
+* [ex018](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex018);
+* [ex019](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex019);
 * [ex020](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex020); e
 * [ex021](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex021).
 
