@@ -29,6 +29,7 @@ Veja os códigos dos desafios abaixo:
 * [d010](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d010);
 * [d011](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d011);
 * [d012](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d012);
+* [d013](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d013);
 
 ## Execícios
 
