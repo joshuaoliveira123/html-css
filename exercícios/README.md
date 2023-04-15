@@ -54,9 +54,11 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 * [ex019 - fundo006](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/fundo006.html);
 * [ex019 - fundo006a](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/fundo006a.html);
 * [ex019 - fundo007](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/fundo007.html);
-* [ex020](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex020/projeto-cordel.txt); e
-* [ex021 - tabela01](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela01.html).
-* [ex021 - tabela02](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela02.html).
+* [ex020](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex020/projeto-cordel.txt);
+* [ex021 - tabela01](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela01.html);
+* [ex021 - tabela02](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela02.html);
+* [ex021 - tabela03](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela03.html); e
+* [ex021 - tabela04](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela04.html).
 
 ---
 ## - [ ] Modulo 4
