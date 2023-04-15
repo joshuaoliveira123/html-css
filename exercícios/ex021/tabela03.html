@@ -9,11 +9,13 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
         }
 
         table{
             border-collapse: collapse;
             width: 80vw;
+            margin: auto;
         }
 
         th, td{
@@ -23,6 +25,10 @@
 
         td.num{
             text-align: right;
+        }
+
+        caption{
+            font-size: 0.8em;
         }
 
         thead, tfoot{
@@ -43,6 +49,7 @@
     <!-- ANATOMIA DE TABELAS GRANDES
             
         TABLE: tabela
+            CAPTION: legenda da tabela
             THEAD: parte de cima **obs: opcional
                 TABLE ROW: linha de tabela
                 TABLE HEADER: cabeçalho da tabela
@@ -57,10 +64,11 @@
                 TABLE DATA: dados da tabela
     -->
     <table>
+        <caption>Tabela 01 - População das unidades federativas brasileiras.</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População <span id="previa-2022">(prévia 2022)</span></th>
+                <th scope="col">Estado</th>
+                <th scope="col">População <span id="previa-2022">(prévia 2022)</span></th>
             </tr>
         </thead>
         <tbody>
@@ -175,7 +183,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num"><strong>207 750 291</strong></td>
             </tr>
         </tfoot>
