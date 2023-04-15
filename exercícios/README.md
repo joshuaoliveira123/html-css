@@ -20,8 +20,8 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 * [ex011](https://joshuaoliveira123.github.io/html-css/exercícios/ex011);
 * [ex011a](https://joshuaoliveira123.github.io/html-css/exercícios/ex011a);
 * [ex012](https://joshuaoliveira123.github.io/html-css/exercícios/ex012);
-* [ex012a](https://joshuaoliveira123.github.io/html-css/exercícios/ex012a); e
-* [ex012b](https://joshuaoliveira123.github.io/html-css/exercícios/ex012b).
+* [ex012a](https://joshuaoliveira123.github.io/html-css/exercícios/ex012a);
+* [ex012b](https://joshuaoliveira123.github.io/html-css/exercícios/ex012b);
 
 ---
 ## - [x] Modulo 2
@@ -39,8 +39,8 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 * [ex015a - hover](https://joshuaoliveira123.github.io/html-css/exercícios/ex015a/hover.html);
 * [ex015a - links](https://joshuaoliveira123.github.io/html-css/exercícios/ex015a/links.html);
 * [ex016 - caixa01](https://joshuaoliveira123.github.io/html-css/exercícios/ex016/caixa01.html);
-* [ex016 - caixa02](https://joshuaoliveira123.github.io/html-css/exercícios/ex016/caixa02.html); e
-* [ex017](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex017/mini-projeto.txt).
+* [ex016 - caixa02](https://joshuaoliveira123.github.io/html-css/exercícios/ex016/caixa02.html);
+* [ex017](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex017/mini-projeto.txt);
 
 ---
 ## - [ ] Modulo 3
@@ -57,17 +57,17 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 * [ex020](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex020/projeto-cordel.txt);
 * [ex021 - tabela01](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela01.html);
 * [ex021 - tabela02](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela02.html);
-* [ex021 - tabela03](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela03.html); e
-* [ex021 - tabela04](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela04.html).
+* [ex021 - tabela03](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela03.html);
+* [ex021 - tabela04](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela04.html);
 
 ---
 ## - [ ] Modulo 4
 ---
 
-* [ex000](https://joshuaoliveira123.github.io/).
+* [ex000](https://joshuaoliveira123.github.io/);
 
 ---
 ## - [ ] Modulo 5
 ---
 
-* [ex000](https://joshuaoliveira123.github.io/).
+* [ex000](https://joshuaoliveira123.github.io/);

@@ -27,8 +27,8 @@ Veja os códigos dos desafios abaixo:
 * [d008](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d008);
 * [d009](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d009);
 * [d010](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d010);
-* [d011](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d011); e
-* [d012](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d012).
+* [d011](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d011);
+* [d012](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d012);
 
 ## Execícios
 
@@ -56,15 +56,15 @@ Veja os códigos dos exercícios abaixo:
 * [ex015](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex015);
 * [ex015a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex015a);
 * [ex016](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex016);
-* [ex017](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex017).
+* [ex017](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex017);
 * [ex018](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex018);
 * [ex019](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex019);
-* [ex020](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex020); e
-* [ex021](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex021).
+* [ex020](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex020);
+* [ex021](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex021);
 
 ## Testes
 
 Veja os códigos dos testes abaixo:
 
-* [teste001](https://github.com/joshuaoliveira123/html-css/tree/main/testes/teste001); e
-* [teste002](https://github.com/joshuaoliveira123/html-css/tree/main/testes/teste002).
+* [teste001](https://github.com/joshuaoliveira123/html-css/tree/main/testes/teste001);
+* [teste002](https://github.com/joshuaoliveira123/html-css/tree/main/testes/teste002);
