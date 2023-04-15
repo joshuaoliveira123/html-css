@@ -37,6 +37,18 @@
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
         }
 
+        tbody > tr:nth-child(2n){ 
+        /* 
+            Podemos usar 'odd'(impar) e 'even' (par).
+            Quando usado o número de pulos (00n). Adicionar/Subtrair um número impar/par é possível controlar o seu comportamento na página.
+        */
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+
         span#previa-2022{
             font-size: 0.7em;
             font-variant: small-caps;
