@@ -30,6 +30,8 @@ Segue abaixo os links para visualização dos desafios, segmentado em modulos, d
 * [d012](https://joshuaoliveira123.github.io/html-css/desafios/d012);
 * [d013 - tabela01](https://joshuaoliveira123.github.io/html-css/desafios/d013/tabela01.html);
 * [d013 - tabela02](https://joshuaoliveira123.github.io/html-css/desafios/d013/tabela02.html);
+* [d013 - tabela03](https://joshuaoliveira123.github.io/html-css/desafios/d013/tabela03.html);
+* [d013 - tabela04](https://joshuaoliveira123.github.io/html-css/desafios/d013/tabela04.html);
 
 ---
 ## - [] Modulo 4
