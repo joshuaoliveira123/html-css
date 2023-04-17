@@ -23,7 +23,7 @@ Segue abaixo os links para visualização dos desafios, segmentado em modulos, d
 * [d010](https://joshuaoliveira123.github.io/html-css/desafios/d010/android.html);
 
 ---
-## - [] Modulo 3
+## - [x] Modulo 3
 ---
 
 * [d011](https://joshuaoliveira123.github.io/html-css/desafios/d011);
@@ -34,9 +34,9 @@ Segue abaixo os links para visualização dos desafios, segmentado em modulos, d
 * [d013 - tabela04](https://joshuaoliveira123.github.io/html-css/desafios/d013/tabela04.html);
 
 ---
-## - [] Modulo 4
+## - [ ] Modulo 4
 ---
 
 ---
-## - [] Modulo 5
+## - [ ] Modulo 5
 ---

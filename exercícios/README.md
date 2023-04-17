@@ -43,7 +43,7 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 * [ex017](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex017/mini-projeto.txt);
 
 ---
-## - [ ] Modulo 3
+## - [x] Modulo 3
 ---
 * [ex018](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex018/git-github.txt);
 * [ex019 - fundo001](https://joshuaoliveira123.github.io/html-css/exercícios/ex019/fundo001.html);
