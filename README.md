@@ -62,6 +62,7 @@ Veja os códigos dos exercícios abaixo:
 * [ex019](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex019);
 * [ex020](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex020);
 * [ex021](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex021);
+* [ex022](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex022);
 
 ## Testes
 
