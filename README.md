@@ -11,62 +11,21 @@ Professor _**Gustavo Guanabara**_
 - [ ] Modulo 5 do **Curso de HTML 5 e CSS 3**.
 
 ---
-## Índice de páginas
+
+* Veja os códigos dos desafios abaixo:
+
+    * [**_Desafios_**](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/).
+
 ---
-## Desafios
 
-Veja os códigos dos desafios abaixo:
+* Veja os códigos dos exercícios abaixo:
 
-* [d001](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d001);
-* [d002](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d002);
-* [d003](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d003);
-* [d004](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d004);
-* [d005](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d005);
-* [d006](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d006);
-* [d007](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d007);
-* [d008](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d008);
-* [d009](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d009);
-* [d010](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d010);
-* [d011](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d011);
-* [d012](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d012);
-* [d013](https://github.com/joshuaoliveira123/html-css/tree/main/desafios/d013);
+    * [**_Exercícios_**](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/).
 
-## Execícios
+---
 
-Veja os códigos dos exercícios abaixo:
+* Veja os códigos dos testes abaixo:
 
-* [ex001](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex001);
-* [ex002](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex002);
-* [ex003](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex003);
-* [ex004](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex004);
-* [ex005](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex005);
-* [ex006](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex006);
-* [ex007](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex007);
-* [ex008](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex008);
-* [ex008a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex008a);
-* [ex009](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex009);
-* [ex010](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex010);
-* [ex011](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex011);
-* [ex011a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex011a);
-* [ex012](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex012);
-* [ex012a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex012a);
-* [ex012b](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex012b);
-* [ex013](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex013);
-* [ex014](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex014);
-* [ex014a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex014a);
-* [ex015](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex015);
-* [ex015a](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex015a);
-* [ex016](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex016);
-* [ex017](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex017);
-* [ex018](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex018);
-* [ex019](https://github.com/joshuaoliveira123/html-css/tree/main/exerc%C3%ADcios/ex019);
-* [ex020](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex020);
-* [ex021](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex021);
-* [ex022](https://github.com/joshuaoliveira123/html-css/blob/main/exerc%C3%ADcios/ex022);
+    * [**_Testes_**](https://github.com/joshuaoliveira123/html-css/tree/main/testes/).
 
-## Testes
-
-Veja os códigos dos testes abaixo:
-
-* [teste001](https://github.com/joshuaoliveira123/html-css/tree/main/testes/teste001);
-* [teste002](https://github.com/joshuaoliveira123/html-css/tree/main/testes/teste002);
+---
