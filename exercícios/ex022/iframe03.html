@@ -33,7 +33,38 @@
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at eligendi repudiandae, fugiat mollitia debitis porro fuga ea deleniti iste. Ratione esse hic labore minus distinctio corrupti libero quos sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestiae nihil enim repellendus minus ad ut ea atque quae, ex quia unde libero? Dolorum harum odio ducimus, architecto et totam.
     </p>
-    <iframe id="tela" name="iframe" src="pag/escolha-pagina.html">
+    <!-- SRC e SRCDOC 
+
+        <iframe id="tela" name"iframe" src="pag/escolha-pagina.html">
+
+        </iframe>
+     -->
+    <iframe id="tela" name="iframe" srcdoc="
+    <head>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(189, 119, 255);
+                height: 100px;
+            }
+    
+            h1{
+                margin: 50vh ;
+                text-align: center;
+                transform: translate(0, -50%);
+                font-variant: small-caps;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>
+                Escolha a Página!
+            </h1>
+        </div>
+    </body>
+    ">
         <p>
             Infelizmente seu navegador não é compátivel com essa ferramenta! <br>
             Click <a href="https://www.agrosete.com.br/wp-content/uploads/2018/03/gato-angora-800x600.jpg" target="_blank" rel="nofollow">aqui</a> para ver a imagem de um belo gato.
