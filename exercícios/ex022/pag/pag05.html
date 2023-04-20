@@ -9,17 +9,23 @@
         body{
             background-color: lightcyan;
         }
+        
+        a{
+            font-weight: bold;
+            padding: 5px;
+            margin: 5px;
+        }
     </style>
 </head>
 <body>
-    <a href="#" onclick="clicou()">Click Aqui</a>
+    <a href="#" onclick="clicou()">Click-me</a>
     <div id="saida"></div>
 
-
+    <!-- <p>Você Clicou</p> -->
     <script>
         function clicou() {
             s = window.document.getElementById("saida")
-            s.innerHTML += '<p>Você Clicou</p>'
+            s.innerHTML += '<a href="#" onclick="clicou()">Click-me</a>'
         }
     </script>
 </body>
