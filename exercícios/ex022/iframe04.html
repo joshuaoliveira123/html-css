@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Segurança em Iframe</title>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga tempora esse provident voluptate aliquam quisquam deleniti eveniet, dolore minima totam delectus eum quaerat laudantium sed, accusamus autem saepe consequuntur sint.
+    </p>
+    <!--
+        Quando o parâmetro:
+
+            sandbox="sandbox"
+
+        Todas as ferramentas de segurança estão ativadas.
+    -->
+    <iframe src="pag/pag04.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        Seu Navegador não é compátivel com essa ferramenta!
+    </iframe>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iusto inventore aperiam dolorem? Voluptatibus assumenda ipsum neque labore? Exercitationem nulla temporibus velit accusamus fuga ipsum quisquam magnam dignissimos quod quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tenetur vero ex est esse magnam, eos aliquam. Tempora, repellat, voluptate molestiae ab quo, vel iusto nisi accusantium quas aperiam possimus?
+    </p>
+</body>
+</html>
