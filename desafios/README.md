@@ -37,6 +37,8 @@ Segue abaixo os links para visualização dos desafios, segmentado em modulos, d
 ## - [ ] Modulo 4
 ---
 
+* [d014](https://joshuaoliveira123.github.io/html-css/desafios/d014);
+
 ---
 ## - [ ] Modulo 5
 ---
