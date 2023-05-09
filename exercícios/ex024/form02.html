@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Formulários em GET e POST</h1>
+
+    <!-- O metodo GET, é reconhecido como o padrão da tag <form>. -->
+        
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="id-get">GET:</label>
+            <input type="text" name="get" id="id-get">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    <form action="cadastro-2.php" method="post">
+        <p>
+            <label for="id-post">POST:</label>
+            <input type="text" name="post" id="id-post">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
