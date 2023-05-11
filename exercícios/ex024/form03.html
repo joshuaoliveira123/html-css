@@ -7,6 +7,34 @@
     <title>Formulários</title>
 </head>
 <body>
-    <h1>Título</h1>
+    <h1>Mais um Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <!-- Para definir o mínimo e máximo de carácteres usamos os parâmetros 'minlenght' e 'maxlenght' respectivamente. (INPUT)-->
+
+        <!-- O parâmetro 'autocomplete' dentro do 'form' e 'input' servem para o propósito de fascilitar o preenchimento do usuário ao campo. 
+            Necessário colocá-lo no 'form' mesmo que o padrão seja "on". -->
+        
+        <p>
+            <label for="id-usuario">Usuário: </label>
+            <input type="text" name="usuario" id="id-usuario" required minlength="5" maxlength="15" size="10" placeholder="fulano23" autocomplete="username">
+        </p>
+
+        <!-- 'placeholder' é um parâmetro que auxília o usuário a ter uma ideia do que é aquele campo, por meio de um exemplo ou explicação. (INPUT) -->
+
+        <!-- Quando necessário, usar o atributo 'required' quando o campo for 100% obrigatório, para evitar solicitações nulas, sem valor. (INPUT) -->
+
+        <p>
+            <label for="id-senha">Senha: </label>
+            <input type="password" name="senha" id="id-senha" required minlength="8" maxlength="16" size="30" placeholder="senha1234" autocomplete="current-password">
+        </p>
+
+        <!-- Também é possivel alterar o tamanho da caixa usando o parâmetro 'size'. (INPUT)-->
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
