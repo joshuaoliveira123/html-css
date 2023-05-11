@@ -62,6 +62,7 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 * [ex021 - tabela05](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela05.html);
 * [ex021 - tabela06](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela06.html);
 * [ex021 - tabela07](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela07.html);
+* [ex021 - tabela08](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela08.html);
 
 ---
 ## - [ ] Modulo 4
