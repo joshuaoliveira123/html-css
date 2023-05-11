@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Tabela de teste</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#tabela{
+            overflow-y: scroll;
+            max-height: 50vh;
+            max-width: 90vw;
+            margin: auto;
+        }
+
+        div#tabela::-webkit-scrollbar{
+            display: none;
+        }
+
+        table{
+            border-collapse: collapse;
+            position: relative;
+            margin: auto;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        thead, tfoot{
+            background-color: darkred;
+            text-shadow: 1px 1px 2px black;
+            font-weight: bolder;
+            color: white;
+            text-align: center;
+        }
+
+        thead tr{
+            background-color: darkred;
+            border: 1px solid black;
+            color: white;
+            position: sticky;
+            top: -1px;
+            left: 0;
+        }
+
+        tfoot tr{
+            background-color: darkred;
+            border: 1px solid black;
+            color: white;
+            position: sticky;
+            bottom: 0;
+            left: 0;
+        }
+
+        tbody tr:nth-child(even){
+            background-color: rgb(255, 143, 143);
+        }
+
+        tbody tr:nth-child(odd){
+            background-color: rgb(255, 212, 212);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Relembrando Tabelas</h1>
+    <div id="tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Item 1</th>
+                    <th scope="colgroup" colspan="2">Item 2</th>
+                    <th scope="col">Item 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+                <tr>
+                    <td>Coisa1</td>
+                    <td>Coisa2.1</td>
+                    <td>Coisa2.2</td>
+                    <td>Coisa3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total</th>
+                    <td colspan="3">Coisas</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
