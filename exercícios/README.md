@@ -78,6 +78,7 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 * [ex024 - form02](https://joshuaoliveira123.github.io/html-css/exercícios/ex024/form02.html);
 * [ex024 - form03](https://joshuaoliveira123.github.io/html-css/exercícios/ex024/form03.html);
 * [ex024 - form04](https://joshuaoliveira123.github.io/html-css/exercícios/ex024/form04.html);
+* [ex024 - form05](https://joshuaoliveira123.github.io/html-css/exercícios/ex024/form05.html);
 ---
 ## - [ ] Modulo 5
 ---
