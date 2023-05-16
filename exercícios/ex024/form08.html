@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Select, Datalist e Textarea</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="id-estado">Estado:</label>
             <select name="estado" id="id-estado">
@@ -31,6 +31,21 @@
                 </optgroup>
             </select>
         </p>
+        <p>
+            <label for="id-profissao">Profissão: </label>
+            <input type="text" name="profissão" id="id-profissao" list="lista-profissoes" placeholder="Zelador">
+            <datalist id="lista-profissoes">
+                <option>Administrador</option>
+                <option>Contador</option>
+                <option>Vendedor</option>
+                <option>Autônomo</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="id-mensagem">Mensagem:</label> <br>
+            <textarea name="mensagem" id="id-mensagem" cols="40" rows="10" placeholder="Escreva seu texto aqui."></textarea>
+        </p>
+        <!-- Para evitar problemas de limitações de caractéres por uso do metodo 'GET' é aconselhado usar o metodo 'POST'-->
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
