@@ -18,6 +18,12 @@
             <label for="idn2">Número 2:</label>
             <input type="number" name="n2" id="idn2" required min="0" max="100" oninput="idsoma.innerHTML = Number(idn1.value) + Number(idn2.value)">
         </p>
+        <!-- 
+            Descobri da forma mais frustrante que usar o nome para os 'id's com '-' não é compatível com o script.
+                Exemplo: 
+                    id-soma = não funciona
+                    idsoma = funciona
+         -->
         <p>
             <label for="idsoma">Soma:</label>
             <output name="soma" id="idsoma">0</output>
