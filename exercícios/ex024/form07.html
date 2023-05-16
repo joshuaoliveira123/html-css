@@ -9,6 +9,35 @@
 </head>
 <body>
     <h1>Mais tags do tipo input</h1>
-    
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Cores</legend>
+            <p>
+                <label for="id-cor-1">Cor-1:</label>
+                <input type="color" name="cor" id="id-cor-1">
+                <label for="id-cor-2">Cor-2:</label>
+                <input type="color" name="cor" id="id-cor-2" value="#ff24ff">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Range</legend>
+            <p>
+                <label for="id-nivel">Nível de Range: </label>
+                <input type="range" name="nivel" id="id-nivel" min="1" max="5" value="5">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Files</legend>
+            <p>
+                <label for="id-file">Arquivo:</label>
+                <input type="file" name="file" id="id-file">
+            </p>
+            <!-- Quando usar o envio de arquivos, fotos, ou arquivos maiores que 3000 Bytes, usa-se o metodo 'POST' em vez do 'GET', cujo é o padrão dos formulários. -->
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
