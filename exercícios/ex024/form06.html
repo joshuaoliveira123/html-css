@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Checkboxes e Rádio</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="id-nome">Nome: </label>
+                <input type="text" name="nome" id="id-nome" required autocomplete="name" placeholder="José Carvalho Souza">
+            </p>
+            <p>
+                <label for="id-idade">Idade:</label>
+                <input type="number" name="idade" id="id-idade" required placeholder="24">
+            </p>
+            <p>
+                <label for="id-email">E-mail: </label>
+                <input type="email" name="email" id="id-email" required autocomplete="email" placeholder="jose.souza01@gmail.com">
+            </p>
+            <p>
+                Sexo: <br>
+                <label for="id-sexo-f">F</label>
+                <input type="radio" name="sexo" id="id-sexo-f">
+                <label for="id-sexo-m">M</label>
+                <input type="radio" name="sexo" id="id-sexo-m" checked>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <p>
+                <label for="id-futebol">Futebol:</label>
+                <input type="checkbox" name="futebol" id="id-futebol" checked>
+            </p>
+            <p>
+                <label for="id-voleibol">Voleibol:</label>
+                <input type="checkbox" name="voleibol" id="id-voleibol">
+            </p>
+            <p>
+                <label for="id-handbol">Handbol: </label>
+                <input type="checkbox" name="handbol" id="id-handbol">
+            </p>
+            <p>
+                <label for="id-corrida">Corrida: </label>
+                <input type="checkbox" name="corrida" id="id-corrida">
+            </p>
+            <p>
+                <label for="id-outro">Outro(s): </label>
+                <input type="text" name="outro" id="id-outro" size="15" placeholder="ex: Natação e E-sports">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
