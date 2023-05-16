@@ -8,6 +8,38 @@
     <title>Formulários</title>
 </head>
 <body>
-    <h1>Título</h1>
+    <h1>Mais inputs de Formulário</h1>
+    
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+<!--
+    É importante usar 'fieldsets' para agrupar termos semelhantes em um formulário, como por exemplo dados pessoais, dados bancários, dados opcionais [...]
+
+    Todos Fieldset tem uma 'legend' para indicar qual é o campo a ser preenchido.
+-->
+            <p>
+                <label for="id-nome">Nome </label>
+                <input type="text" name="nome" id="id-nome" required autocomplete="name" minlength="5" maxlength="40" placeholder="Ricardo da Silva">
+            </p>
+            <p>
+                <label for="id-email">Email</label>
+                <input type="email" name="email" id="id-email" required autocomplete="email" placeholder="ricardosilva23@gmail.com">
+            </p>
+            <p>
+                <label for="id-telefone">Telefone</label>
+                <input type="tel" name="telefone" id="id-telefone" required autocomplete="tel" minlength="11" pattern="^\([0-9]{2}\)9[0-9]{8}$" placeholder="(99)912345678">
+            </p>
+        </fieldset>
+        <!-- 
+            Estudar mais sobre RegEx:
+
+            pattern="^[0-9]{2}9[0-9]{8}$"
+        -->
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
 </body>
 </html>
