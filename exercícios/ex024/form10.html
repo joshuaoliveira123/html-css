@@ -10,8 +10,18 @@
 <body>
     <h1>Mais um formulário, que coisa não?</h1>
     <form action="cadastro.php" method="get">
+        <p>
+            <label for="idnum">Número: </label>
+            <input type="range" name="num" id="idnum" min="0" max="10" value="0"
+            
+            oninput="
+            
+                idval.innerHTML = Number(idnum.value);
 
-        
+            "
+            >
+            <output id="idval">0</output>
+        </p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
