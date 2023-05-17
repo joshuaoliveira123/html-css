@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>É [. . .]</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="idano">Em que Ano você nasceu?</label>
+            <input type="number" name="ano" id="idano" required value="2000"
+            
+            oninput="
+
+            anos = ' anos'
+            
+                idval.innerHTML = Number(idano2.value) - Number(idano.value) + anos;
+            "
+            >
+        </p>
+        <p>
+            <label for="idano2">Em que ano você está preenchendo esse formulário?</label>
+            <input type="number" name="idano2" id="idano2" required value="2023"
+            
+            oninput="
+
+            anos = ' anos'
+            
+                idval.innerHTML = Number(idano2.value) - Number(idano.value) + anos;
+            "
+            >
+        </p>
+        <p>
+            <label for="idida">Sua Idade é: </label>
+            <output id="idval">23 anos</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
