@@ -30,11 +30,15 @@
             anos = ' anos'
             
                 idval.innerHTML = Number(idano2.value) - Number(idano.value) + anos;
+
+                idano3.innerHTML = Number(idano2.value);
             "
             >
         </p>
         <p>
-            <label for="idida">Sua Idade é: </label>
+            <label for="idida">A Idade que você têm em 
+                <output id="idano3">2023</output>
+                , ou terá, é de </label>
             <output id="idval">23 anos</output>
         </p>
         <p>
