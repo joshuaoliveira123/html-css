@@ -12,11 +12,35 @@
     <form action="cadastro.php" method="get">
         <p>
             <label for="in1">Número 1:</label>
-            <input type="number" name="n1" id="idn1" required min="0" max="100" oninput="idsoma.innerHTML = Number(idn1.value) + Number(idn2.value)">
+            <input type="number" name="n1" id="idn1" required min="0" max="100"
+
+            oninput="
+            
+            idsoma.innerHTML = Number(idn1.value) + Number(idn2.value);
+             
+            idsub.innerHTML = Number(idn1.value) - Number(idn2.value);
+
+            idmul.innerHTML = Number(idn1.value) * Number(idn2.value);
+
+            iddiv.innerHTML = Number(idn1.value) / Number(idn2.value);
+            
+            ">
         </p>
         <p>
             <label for="idn2">Número 2:</label>
-            <input type="number" name="n2" id="idn2" required min="0" max="100" oninput="idsoma.innerHTML = Number(idn1.value) + Number(idn2.value)">
+            <input type="number" name="n2" id="idn2" required min="0" max="100" 
+            
+            oninput="
+            
+            idsoma.innerHTML = Number(idn1.value) + Number(idn2.value); 
+            
+            idsub.innerHTML = Number(idn1.value) - Number(idn2.value);
+
+            idmul.innerHTML = Number(idn1.value) * Number(idn2.value);
+
+            iddiv.innerHTML = Number(idn1.value) / Number(idn2.value);
+            
+            ">
         </p>
         <!-- 
             Descobri da forma mais frustrante que usar o nome para os 'id's com '-' não é compatível com o script.
@@ -27,6 +51,18 @@
         <p>
             <label for="idsoma">Soma:</label>
             <output name="soma" id="idsoma">0</output>
+        </p>
+        <p>
+            <label for="idsub">Subtração:</label>
+            <output name="sub" id="idsub">0</output>
+        </p>
+        <p>
+            <label for="idmul">Multiplicação:</label>
+            <output name="mul" id="idmul">0</output>
+        </p>
+        <p>
+            <label for="iddiv">Divisão:</label>
+            <output name="div" id="iddiv">0</output>
         </p>
         <p>
             <input type="submit" value="Enviar">
