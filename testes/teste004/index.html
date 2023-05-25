@@ -35,6 +35,22 @@
             text-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
         }
 
+        .hover:hover{
+            background-color: rgb(63, 63, 63);
+            color: white;
+            padding: 0 2px;
+            transition: 0.3s;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        p{
+            text-indent: 1.5em;
+        }
+
+        p:nth-child(3){
+            margin: 1em 0 3em 0;
+        }
+
         ul{
             list-style-position: outside;
         }
@@ -42,15 +58,17 @@
 </head>
 <body>
     <main>
-        <h1 class="destaque">Título</h1>
+        <h1 class="destaque">Lista de configurações</h1>
         <p>
-            Olá? Tudo bem? <br>
+            Olá? Tudo bem?
+        </p>
+        <p>
             Seguinte, estou escrevendo isso para não esquecer novamente como configurar o Visual Studio Code da forma que estou acostumado.
         </p>
         <ol>
-            <li>Baixar e instalar o <span class="destaque">VS Code</span>.</li>
-            <li>Baixar e instalar o <span class="destaque">Git</span>.</li>
-            <li>Baixar e instalar o <span class="destaque">GitHub Desktop</span>.</li>
+            <li>Baixar e instalar o <span class="destaque hover">VS Code</span>.</li>
+            <li>Baixar e instalar o <span class="destaque hover">Git</span>.</li>
+            <li>Baixar e instalar o <span class="destaque hover">GitHub Desktop</span>.</li>
         </ol>
         <ul>
             <li class="destaque">VS CODE</li>
