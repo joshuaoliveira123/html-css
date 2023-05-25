@@ -10,57 +10,78 @@
             font-family: Arial, Helvetica, sans-serif;
             line-height: 1.5em;
         }
+
+        body{
+            background-image: linear-gradient(to right, rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.8));
+        }
+
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+        }
+
         .destaque{
             font-weight: bold;
             text-transform: uppercase;
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
         }
+
         .destaque-2{
             font-style: italic;
             font-weight: bold;
             text-transform: capitalize;
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        }
+
+        ul{
+            list-style-position: outside;
         }
     </style>
 </head>
 <body>
-    <h1>Título</h1>
-    <p>
-        Olá? Tudo bem? <br>
-        Seguinte, estou escrevendo isso para não esquecer novamente como configurar o Visual Studio Code da forma que estou acostumado.
-    </p>
-    <ol>
-        <li>Baixar e instalar o <span class="destaque">VS Code</span>.</li>
-        <li>Baixar e instalar o <span class="destaque">Git</span>.</li>
-        <li>Baixar e instalar o <span class="destaque">GitHub Desktop</span>.</li>
-    </ol>
-    <ul>
-        <li class="destaque">VS CODE</li>
-            <ul>
-                <li class="destaque-2">Instalar as extensões:</li>
-                    <ul>
-                        <li>Live Preview.</li>
-                        <li>Portuguese (Brazil).</li>
-                        <li>Auto Rename Tag.</li>
-                    </ul>
-                <li class="destaque-2">Settings:</li>
-                    <ul>
-                        <li>auto save: on.</li>
-                        <li>line wrap: on.</li>
-                    </ul>
-            </ul>
-    </ul>
-    <ul>
-        <li class="destaque">Git</li>
-            <ul>
-                <li>Só instalar normalmente. Só lembra de fazer ele antes do github desktop.</li>
-            </ul>
-    </ul>
-    <ul>
-        <li class="destaque">GitHub Desktop</li>
-            <ul>
-                <li>Entrar na conta do GitHub.</li>
-                <li>Clonar os repositórios.</li>
-                <li>Testar se ta funcionando.</li>
-            </ul>
-    </ul>
+    <main>
+        <h1 class="destaque">Título</h1>
+        <p>
+            Olá? Tudo bem? <br>
+            Seguinte, estou escrevendo isso para não esquecer novamente como configurar o Visual Studio Code da forma que estou acostumado.
+        </p>
+        <ol>
+            <li>Baixar e instalar o <span class="destaque">VS Code</span>.</li>
+            <li>Baixar e instalar o <span class="destaque">Git</span>.</li>
+            <li>Baixar e instalar o <span class="destaque">GitHub Desktop</span>.</li>
+        </ol>
+        <ul>
+            <li class="destaque">VS CODE</li>
+                <ul>
+                    <li class="destaque-2">Instalar as extensões:</li>
+                        <ul>
+                            <li>Live Preview.</li>
+                            <li>Portuguese (Brazil).</li>
+                            <li>Auto Rename Tag.</li>
+                        </ul>
+                    <li class="destaque-2">Settings:</li>
+                        <ul>
+                            <li>auto save: on.</li>
+                            <li>line wrap: on.</li>
+                        </ul>
+                </ul>
+        </ul>
+        <ul>
+            <li class="destaque">Git</li>
+                <ul>
+                    <li>Só instalar normalmente. Só lembra de fazer ele antes do github desktop.</li>
+                </ul>
+        </ul>
+        <ul>
+            <li class="destaque">GitHub Desktop</li>
+                <ul>
+                    <li>Entrar na conta do GitHub.</li>
+                    <li>Clonar os repositórios.</li>
+                    <li>Testar se ta funcionando.</li>
+                </ul>
+        </ul>
+    </main>
 </body>
 </html>
