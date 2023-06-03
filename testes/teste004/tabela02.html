@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tabrla</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        th{
+            background-color: darkblue;
+            color: white;
+            text-shadow: 0 0 5px rgba(0,0,0,0.5);
+        }
+
+        tr:nth-child(odd){
+            background-color: white;
+        }
+
+        tr:nth-child(even){
+            background-color: lightblue;
+        }
+
+        td:hover, th:hover{
+            display: inline-block;
+            box-sizing: border-box;
+            transform: translate(-5%, -5%);
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Coisa1</th>
+                <th scope="col">Coisa2</th>
+                <th scope="col" colspan="2">Coisa3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Dado1
+                </td>
+                <td>
+                    Dado2
+                </td>
+                <td>
+                    Dado3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Dado1
+                </td>
+                <td>
+                    Dado2
+                </td>
+                <td>
+                    Dado3
+                </td> 
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
