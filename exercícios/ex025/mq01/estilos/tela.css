@@ -46,7 +46,9 @@ menu li:hover{
 }
 
 article{
-    margin: 30px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
     text-align: justify;
     line-height: 1.25em;
 }
