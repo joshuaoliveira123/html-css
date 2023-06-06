@@ -18,3 +18,8 @@ html{
 menu{
     display: none;
 }
+
+article::after{
+    content: 'Esse Artigo foi impresso por um site feito pelo Joshua Oliveira.';
+    font-size: 0.4em;
+}
