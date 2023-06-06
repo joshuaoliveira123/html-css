@@ -19,12 +19,13 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: end; /* Vertical se o flex-direction tiver valor 'row'. */ 
-    justify-content: center; /* Horizontal se o flex-direction tiver valor 'row'. */
+    justify-content: space-around; /* Horizontal se o flex-direction tiver valor 'row'. Pode-se usar para espaçamento entre os itens, também seguindo o plano Horizontal.*/
+    align-content: normal; /* Vertical se o flex-direction tiver valor 'row'. Pode-se usar para espaçamento entre os itens, também seguindo o plano Vertical.*/
 
     width: 70vw;
     height: 100vh;
     background-color: white;
-    margin: auto;
+    margin: 0 auto;
     padding: 20px;
 }
 
