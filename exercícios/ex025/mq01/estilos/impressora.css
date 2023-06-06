@@ -3,20 +3,46 @@
 /* Estilo para Papel */
 
 *{
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     border: 0;
     outline: 0;
 }
 
-html{
+html, body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     line-height: 1.5em;
+    width: 100vw;
+    height: 100vh;
+}
+
+header h1{
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 40px;
 }
 
 menu{
     display: none;
+}
+
+article{
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+    text-indent: 2em;
+    padding: 10px;
+}
+
+article h2{
+    padding: 50px 0;
+}
+
+article p{
+    padding: 10px;
 }
 
 article::after{
