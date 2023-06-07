@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+
+    <!-- 
+        Media Queries são compostos pela combinação dos media-types e media-features, não sendo necessário expressar cada um todas as vezes. 
+            Afinal, o media-type padrão é o 'all', que corresponde a todos os 'tipos' de 'impressões'. Enquanto o padrão dos media-features é correspondente a 100% da viewport de 'width', 'heigh', 'device-width', [...].
+    -->
+
+    <!-- media-features, são obrigatóriamente, expressados entre "(" & ")".
+        (parênteses)
+     -->
+
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+    <title>Media Queries</title>
+</head>
+<body>
+    <h1>
+        Vira a tela ae, só pra eu ver um negócio. =)
+    </h1>
+</body>
+</html>
