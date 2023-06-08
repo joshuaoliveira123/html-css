@@ -3,6 +3,6 @@
 /* Aparelhos em retrato (portrait) */
 
 body {
-    background-color: black;
-    color: white;
+    background: #233eff url(../../imagens/cev-portrait.jpg) bottom no-repeat fixed;
+    background-size: contain;
 }
