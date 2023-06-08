@@ -17,4 +17,5 @@ html, body{
 h1 {
     padding: 5px;
     margin: 10px;
+    text-shadow: 1px 1px 0px black;
 }
