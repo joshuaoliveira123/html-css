@@ -19,7 +19,6 @@ body {
 
 #cabecalho {
     background-color: gray;
-    color: white;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -27,8 +26,17 @@ body {
     order: 1;
 }
 
+#cabecalho a {
+    text-decoration: none;
+    color: white;
+}
+
 #logo {
     padding: 10px;
+}
+
+#logo a {
+    padding: 20px 0;
 }
 
 #cabecalho ul {
@@ -37,10 +45,13 @@ body {
 
 #cabecalho li {
     display: inline-block;
+}
+
+#cabecalho li > a {
     padding: 5px;
 }
 
-#cabecalho li:hover {
+#cabecalho li > a:hover {
     background-color: white;
     color: black;
     transition: 0.3s;
@@ -53,22 +64,22 @@ body {
 }
 
 .section-box {
-    width: 50%;
+    max-width: 500px;
     text-indent: 1.5em;
     line-height: 1.25em;
-    margin: 35px 0;
+    margin: 35px auto;
 }
 
 .section-box p {
     padding: 15px;
-}
-
-.sb1 {
     text-align: justify;
 }
 
-.sb2 {
-    text-align: justify;
+.section-box h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 #rodape {
