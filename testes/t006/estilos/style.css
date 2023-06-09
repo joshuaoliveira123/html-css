@@ -24,6 +24,8 @@ body {
     align-items: baseline;
     padding: 10px;
     order: 1;
+    position: sticky;
+    top: 0;
 }
 
 #cabecalho a {
