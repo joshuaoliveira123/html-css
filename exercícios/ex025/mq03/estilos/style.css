@@ -1,2 +1,38 @@
 @charset "UTF-8";
 
+ /* configurações gerais */
+
+ * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: #233eff bottom no-repeat fixed;
+    background-size: contain;
+}
+
+h1 {
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+/* configurações para retrato */
+
+@media screen and (orientation: portrait) {
+    body {
+        background-image: url(../imagens/cev-portrait.jpg);
+    }
+}
+
+/* configurações para paisagem */
+
+@media screen and (orientation: landscape) {
+    body {
+        background-image: url(../imagens/cev-landscape.jpg);
+    }
+}
