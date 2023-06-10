@@ -20,7 +20,7 @@ body{
     flex-direction: row;
     align-items: end; /* Vertical se o flex-direction tiver valor 'row'. */ 
     justify-content: space-around; /* Horizontal se o flex-direction tiver valor 'row'. Pode-se usar para espaçamento entre os itens, também seguindo o plano Horizontal.*/
-    align-content: normal; /* Vertical se o flex-direction tiver valor 'row'. Pode-se usar para espaçamento entre os itens, também seguindo o plano Vertical.*/
+    align-content: end; /* Vertical se o flex-direction tiver valor 'row'. Pode-se usar para espaçamento entre os itens, também seguindo o plano Vertical.*/
 
     width: 70vw;
     height: 100vh;
