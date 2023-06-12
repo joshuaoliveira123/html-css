@@ -93,3 +93,27 @@ body {
     order: 3;
     justify-self: end;
 }
+
+@media screen and (min-width: 1000px) {
+    #main {
+        width: 1000px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #cabecalho {
+        display: block;
+        text-align: center;
+        position: relative;
+    }
+
+    #cabecalho > nav > ul > li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #cabecalho > nav > ul > li > a{
+        display: block;
+    }
+}
