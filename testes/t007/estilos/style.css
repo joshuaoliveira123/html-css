@@ -5,3 +5,39 @@
     margin: 0;
     border: 0;
 }
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container {
+    min-width: 100%;
+    /* min-height: 100%; */
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "barra-lateral  main  main"
+        "footer footer footer"
+    ;
+}
+
+.cabecalho {
+    grid-area: header;
+    background-color: darkgreen;
+}
+
+.main {
+    grid-area: main;
+    background-color: brown;
+}
+
+.barra-lateral {
+    grid-area: barra-lateral;
+    background-color: lightblue;
+}
+
+.rodape {
+    grid-area: footer;
+    background-color: rgb(139, 0, 120);
+}
