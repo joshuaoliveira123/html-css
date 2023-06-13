@@ -53,7 +53,7 @@ html {
     height: 100px;
 }
 
-@media (max-width: 1000px) or (orientation: portrait) {
+@media (max-width: 1000px) /* or (orientation: portrait) */ {
     .grid-container {
         grid-template-areas: 
             "header"
