@@ -13,31 +13,53 @@ html {
 
 .grid-container {
     min-width: 100%;
-    /* min-height: 100%; */
     display: grid;
     grid-template-areas: 
-        "header header header"
-        "barra-lateral  main  main"
-        "footer footer footer"
+        "header header header header"
+        "aside  main  main main"
+        "footer footer footer footer"
     ;
+}
+
+.grid-container > * {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
 }
 
 .cabecalho {
     grid-area: header;
     background-color: darkgreen;
+    height: 100px;
 }
 
 .main {
     grid-area: main;
     background-color: brown;
+    height: 100vh; /* G A M B I A R R A */
 }
 
 .barra-lateral {
-    grid-area: barra-lateral;
+    grid-area: aside;
     background-color: lightblue;
+    /* A gambiarra é tão potente, que influência até isso, sei lá como, só aceitei. Depois eu estudo mais. */
 }
 
 .rodape {
     grid-area: footer;
     background-color: rgb(139, 0, 120);
+    height: 100px;
+}
+
+@media (max-width: 1000px) or (orientation: portrait) {
+    .grid-container {
+        grid-template-areas: 
+            "header"
+            "main"
+            "aside"
+            "footer"
+        ;
+    }
 }
