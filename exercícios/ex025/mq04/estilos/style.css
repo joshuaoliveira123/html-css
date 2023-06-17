@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
