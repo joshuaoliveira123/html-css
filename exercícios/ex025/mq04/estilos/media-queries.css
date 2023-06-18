@@ -2,6 +2,7 @@
 
 /* Versões para diferentes telas */
 
+/* tablet */
 @media screen and (min-width: 767px) {
     body {
         background-image: url(../../imagens/back-tablet.jpg);
@@ -12,6 +13,7 @@
     #tablet { display: block;}
 }
 
+/* pc */
 @media screen and (min-width: 1023px) {
     body {
         background-image: url(../../imagens/back-pc.jpg);
@@ -22,6 +24,7 @@
     #pc { display: block;}
 }
 
+/* tv */
 @media screen and (min-width: 2000px) {
     body {
         background-image: url(../../imagens/back-tv.jpg);
@@ -32,10 +35,28 @@
     #tv { display: block;}
 }
 
+/* impressão */
 @media print {
+
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
     body {
-        background-image: url(../../imagens/back-print.jpg);
+        background-color: white;
+        background-image: url(../../imagens/back-print.jpg); /* Não funciona infelizmente ;=; */
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main > * {
+        color: black;
+        text-shadow: 0 0 0 transparent;
     }
 
     #celular { display: none;}
+
+    #impressora { display: block;}
 }
