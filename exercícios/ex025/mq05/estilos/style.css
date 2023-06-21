@@ -43,6 +43,7 @@ html, body {
 
 #menu-icone {
     display: block;
+    width: 100%;
     background-color: rgb(54, 54, 54);
     color: white;
     text-align: center;
