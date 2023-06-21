@@ -76,7 +76,6 @@ html, body {
 }
 
 .artigo {
-    text-align: justify;
     padding: 10px;
 }
 
@@ -87,7 +86,8 @@ html, body {
 
 .artigo p {
     text-indent: 1.5em;
-    font-size: 1.3em;
+    text-align: justify;
+    font-size: 1.1em;
     line-height: 1.5em;
     padding: 1em 0;
 }
