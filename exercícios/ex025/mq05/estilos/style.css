@@ -16,7 +16,60 @@
     --sombra-text: 1px 0px 3px rgba(0, 0, 0, 0.8);;
 }
 
+::selection {
+    background-color: lightcoral;
+}
+
 html, body {
     background-color: lightgray;
     font-family: var(--font-padrao);
+}
+
+#cabecalho {
+    background-color: gray;
+    box-shadow: var(--sombra-box);
+}
+
+#cabecalho > h1 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: var(--font-destaque);
+    letter-spacing: 1vw;
+}
+
+.menu {
+    display: block;
+}
+
+.menu > ul {
+    list-style-type: none;
+}
+
+.menu a {
+    display: block; /* se não colocar ele como display block, os links serão sobrepostos pelo padding deles mesmos. */
+    text-decoration: none;
+    text-align: center;
+    color: white; 
+    padding: 10px;
+    background-color: rgb(75, 75, 75);
+    border-bottom: 1px solid gray;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.artigo {
+    text-align: justify;
+    padding: 10px;
+}
+
+.artigo p {
+    text-indent: 1.5em;
+    line-height: 1.5em;
+    padding: 1em 0;
 }
