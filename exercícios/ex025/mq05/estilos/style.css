@@ -41,8 +41,23 @@ html, body {
     letter-spacing: 1vw;
 }
 
-.menu {
+#menu-icone {
     display: block;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#menu-icone:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu {
+    display: none;
 }
 
 .menu > ul {
@@ -63,7 +78,6 @@ html, body {
     text-decoration: none;
     color: black;
     background-color: white;
-    transition: 0.3s;
 }
 
 #main {
