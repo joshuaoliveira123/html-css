@@ -51,7 +51,7 @@ html, body {
     cursor: pointer;
 }
 
-#menu-icone:hover {
+#menu-icone:active {
     background-color: white;
     color: black;
 }
