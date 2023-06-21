@@ -105,3 +105,13 @@ html, body {
     line-height: 1.5em;
     padding: 1em 0;
 }
+
+.imagem-falsa {
+    display: block;
+    width: 100%;
+    height: 25vh;
+    margin: 30px auto;
+    background: white url('https://cdn.iconscout.com/icon/free/png-256/free-grid-application-menu-artboard-layer-7-16383.png') center space scroll;
+    background-size: contain;
+
+}
