@@ -2,23 +2,6 @@
 
 /* Mobile First */
 
-body {
-    background-image: linear-gradient(to right, rgb(255, 229, 229), rgb(229, 255, 230));
-}
-
-p {
-    padding: 10px 0;
-    text-indent: 1.5em;
-    line-height: 1.5em;
-}
-
-h2 {
-    font-family: var(--font-destaque);
-    font-size: 2em;
-    padding: 20px 0;
-    font-variant: small-caps;
-}
-
 #cabecalho {
     background-color: gray;
     color: white;
@@ -77,8 +60,9 @@ h2 {
 
 #principal {
     background-color: white;
+    max-width: 800px;
     padding: 10px;
-    margin: 50px 0;
+    margin: 50px auto;
     border-radius: 10px 0;
     box-shadow: var(--sombra-caixa);
 }
@@ -86,6 +70,16 @@ h2 {
 .artigo {
     width: 100%;
     text-align: justify;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    padding: 3.5em;
+}
+
+.imagens img {
+    width: 100%;
 }
 
 #rodape {
