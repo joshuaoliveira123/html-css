@@ -13,7 +13,7 @@
     <header id="cabecalho">
         <div id="flex-container-space-between">
             <h1 id="logo-titulo">LOGO</h1>
-            <span id="menu-icone" class="material-symbols-outlined" onclick="clickOpenMenu()">menu</span>
+            <span id="IconeMenu" class="material-symbols-outlined" onclick="clickOpenMenu()">menu</span>
         </div>
         <menu id="menu">
             <ul>
@@ -48,8 +48,10 @@
         function clickOpenMenu() {
             if (menu.style.display == 'block') {
                 menu.style.display = 'none'
+                IconeMenu.innerHTML = 'menu'
             } else {
                 menu.style.display = 'block'
+                IconeMenu.innerHTML = 'close'
             }
         }
     </script>
