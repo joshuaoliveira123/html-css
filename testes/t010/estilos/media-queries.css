@@ -25,3 +25,24 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 399px) {
+    html, body {
+        background-color: black;
+        background-image: none;
+    }
+}
+
+@media screen and (min-width: 599px) {
+    html, body {
+        background-color: brown;
+        background-image: none;
+    }
+}
+
+@media screen and (min-width: 999px) {
+    html, body {
+        background-color: darkblue;
+        background-image: none;
+    }
+}
