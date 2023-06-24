@@ -1,3 +1,27 @@
 @import url(css-global.css);
 
 /* Media Queries */
+
+@media print {
+
+    html, body, main, article{
+        background-image: none;
+        font-family: var(--font-destaque);
+    }
+
+    #cabecalho {
+        display: none;
+    }
+
+    #principal {
+        box-shadow: none;
+    }
+
+    .artigo h2 {
+        text-align: center;
+    }
+
+    #rodape {
+        display: none;
+    }
+}
