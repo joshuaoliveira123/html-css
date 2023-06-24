@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Reset e configurações padrões */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: 'Courier New', Courier, monospace;
+
+    --sombra-caixa: 5px 5px 8px rgba(0, 0, 0, 0.3);
+    --sombra-texto: 1px 0px 3px rgba(0, 0, 0, 0.8);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
