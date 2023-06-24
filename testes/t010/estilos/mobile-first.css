@@ -52,7 +52,7 @@
     padding: 10px;
 }
 
-#menu a:hover {
+#menu a:active {
     text-decoration: none;
     color: black;
     background-color: white;
