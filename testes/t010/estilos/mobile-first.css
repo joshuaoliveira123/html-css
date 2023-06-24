@@ -1,3 +1,85 @@
 @import url(css-global.css);
 
 /* Mobile First */
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 229, 229), rgb(229, 255, 230));
+}
+
+p {
+    padding: 10px 0;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-family: var(--font-destaque);
+    font-size: 2em;
+    padding: 20px 0;
+    font-variant: small-caps;
+}
+
+#cabecalho {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+#logo-titulo {
+    padding: 40px;
+    font-family: var(--font-destaque);
+    font-size: 4em;
+    text-shadow: var(--sombra-texto);
+}
+
+#menu {
+    background-color: rgb(65, 65, 65);
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    border-bottom: 1px solid gray;
+}
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#principal {
+    background-color: white;
+    padding: 10px;
+    margin: 50px 0;
+    border-radius: 10px 0;
+    box-shadow: var(--sombra-caixa);
+}
+
+.artigo {
+    width: 100%;
+    text-align: justify;
+}
+
+#rodape {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+#rodape p {
+    font-size: 0.8em;
+    text-indent: 0;
+    padding: 0;
+    text-shadow: var(--sombra-texto);
+}
