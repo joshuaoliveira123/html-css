@@ -25,6 +25,11 @@ h2 {
     text-align: center;
 }
 
+#flex-container-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
 #logo-titulo {
     padding: 40px;
     font-family: var(--font-destaque);
@@ -32,7 +37,20 @@ h2 {
     text-shadow: var(--sombra-texto);
 }
 
+#menu-icone {
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+#menu-icone:active {
+    background-color: white;
+    color: black;
+}
+
 #menu {
+    display: none; /* propriedade que terá interação com o javascript :-) */
     background-color: rgb(65, 65, 65);
 }
 
@@ -41,7 +59,7 @@ h2 {
 }
 
 #menu li {
-    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
 }
 
 #menu a {
