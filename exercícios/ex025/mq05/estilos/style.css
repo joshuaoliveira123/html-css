@@ -41,7 +41,7 @@ html, body {
     letter-spacing: 1vw;
 }
 
-#menu-icone {
+#menuIcone {
     display: block;
     background-color: rgb(54, 54, 54);
     color: white;
@@ -51,7 +51,7 @@ html, body {
     cursor: pointer;
 }
 
-#menu-icone:active {
+#menuIcone:active {
     background-color: white;
     color: black;
 }
