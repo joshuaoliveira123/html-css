@@ -35,6 +35,7 @@ html, body {
 #cabecalho > .h1-titulo {
     color: white;
     text-align: center;
+    text-shadow: var(--sombra-text);
     padding: 50px;
     font-family: var(--font-destaque);
     font-size: 3em;
