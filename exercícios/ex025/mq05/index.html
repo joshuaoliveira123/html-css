@@ -12,7 +12,7 @@
 <body>
     <header id="cabecalho">
         <h1 class="h1-titulo">NOME DO SITE</h1>
-        <i id="menu-icone" class="material-symbols-outlined" onclick="clickMenu()">menu</i> <!-- o parâmetro 'onclick' é relacionado a "quando eu clicar, faça isso". É bem legal :) -->
+        <i id="menuIcone" class="material-symbols-outlined" onclick="clickMenu()">menu</i> <!-- o parâmetro 'onclick' é relacionado a "quando eu clicar, faça isso". É bem legal :) -->
         <menu id="itens" class="menu">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -44,8 +44,10 @@
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
+                menuIcone.innerHTML = 'menu'
             } else {
                 itens.style.display = 'block'
+                menuIcone.innerHTML = 'close'
             }
         }
     </script>
