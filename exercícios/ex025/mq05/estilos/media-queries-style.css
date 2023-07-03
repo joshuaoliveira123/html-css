@@ -2,3 +2,22 @@
 
 /* Media Queries */
 
+
+/* Menu hamburguer */
+@media screen and (min-width: 768px) {
+    #menuIcone {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    menu li {
+        display: inline-block;
+    }
+
+    main {
+        max-width: 800px;
+    }
+}
