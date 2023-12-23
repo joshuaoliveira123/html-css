@@ -10,11 +10,17 @@
 <body>
     <h1>Desafio da imagem flexivel</h1>
     <p>Segue abaixo uma imagem flexivel com cortes.</p>
-    <picture>
+    <picture title="min-width">
         <source media="(min-width: 550px)" srcset="imagens/foto-g.jpg" type="image/jpg">
         <source media="(min-width: 350px)" srcset="imagens/foto-m.jpg" type="image/jpg">
         <source media="(min-width: 200px)" srcset="imagens/foto-p.jpg" type="image/jpg">
         <img src="imagens/foto-g.jpg" alt="Exemplo de Paisagem">
+    </picture>
+
+    <picture title="max-width">
+        <source media="(max-width: 350px)" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 550px)" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <img src="imagens/foto-g.jpg" alt="Imagem de barco">
     </picture>
 </body>
 </html>
