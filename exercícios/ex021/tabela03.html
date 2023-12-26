@@ -30,21 +30,22 @@
 
         caption{
             font-size: 0.8em;
+            font-variant: small-caps;
         }
 
-        thead, tfoot{
+        thead, tfoot{ /* poderia ser feito uma 'class' para definir essas caracteristícas */
             background-color: gray;
             color: white;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
         }
 
-        thead > tr > th{
+        thead > tr > th{ /* poderia ter feito um 'id' para esse propósito, ou uma 'class' caso fosse utilizado mais de uma planilha na página */
             position: sticky;
             top: -1px;
             background-color: gray;
         }
 
-        tfoot > tr{
+        tfoot > tr{ /* mesma situação citada acima */
             position: sticky;
             bottom: 0;
             background-color: gray;
