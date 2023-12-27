@@ -18,7 +18,7 @@
             </p>
             <p>
                 <label for="id-idade">Idade:</label>
-                <input type="number" name="idade" id="id-idade" required placeholder="24">
+                <input type="number" name="idade" id="id-idade" required placeholder="24" min="0" max="999">
             </p>
             <p>
                 <label for="id-email">E-mail: </label>
@@ -31,6 +31,9 @@
                 <label for="id-sexo-m">M</label>
                 <input type="radio" name="sexo" id="id-sexo-m" checked>
             </p>
+            <!-- 'checked'
+                    Parâmetro para ficar pre-cadastrado no momento de carregamento do formulário. Similar ao 'placeholder', com a diferença que o 'checker' realmente influência diretamente na resposta final caso não seja alterado manualmente pelo usuário
+            -->
         </fieldset>
         <fieldset>
             <legend>Esportes Favoritos</legend>
@@ -48,11 +51,11 @@
             </p>
             <p>
                 <label for="id-corrida">Corrida: </label>
-                <input type="checkbox" name="corrida" id="id-corrida">
+                <input type="checkbox" name="corrida" id="id-corrida" checked>
             </p>
             <p>
                 <label for="id-outro">Outro(s): </label>
-                <input type="text" name="outro" id="id-outro" size="15" placeholder="ex: Natação e E-sports">
+                <input type="text" name="outro" id="id-outro" size="15" placeholder="Natação e E-sports">
             </p>
         </fieldset>
         <p>

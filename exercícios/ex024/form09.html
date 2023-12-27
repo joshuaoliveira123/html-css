@@ -10,8 +10,11 @@
 <body>
     <h1>Elemento Output</h1>
     <form action="cadastro.php" method="get">
+        <!-- 'oninput' é uma forma de rodar um script automáticamente ao ser incerido qualquer input, seja texto, numeros ou até cores. Para coisas mais específicas, existem alguns parâmetros mais usuais que apenas o 'oninput'.
+        Ex: 'ondblclick', 'onclick', 'onchange' [...]
+        -->
         <p>
-            <label for="in1">Número 1:</label>
+            <label for="idn1">Número 1:</label>
             <input type="number" name="n1" id="idn1" required min="0" max="100"
 
             oninput="
@@ -52,6 +55,7 @@
             <label for="idsoma">Soma:</label>
             <output name="soma" id="idsoma">0</output>
         </p>
+        <!-- Um 'output' é apenas uma saida de script (para adicionar, remover ou alterar valores), via "id" ou "name". Não sei ao certo qual seria a boa prática nesse quesito. -->
         <p>
             <label for="idsub">Subtração:</label>
             <output name="sub" id="idsub">0</output>

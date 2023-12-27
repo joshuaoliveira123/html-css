@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprendendo sobre formulários">
+    <!-- meta:description é muito útil para explicar e facilitar a distribuição da página em um motor de buscas (chromium, edge, safari, etc)-->
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Formulário</title>
     <style>
         *{
             font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .clicavel{
+            cursor: pointer;
         }
     </style>
 </head>
@@ -18,15 +24,15 @@
     </h1>
     <form action="cadastro.php" autocomplete="off">
         <p>
-            <label for="id-nome">Nome:</label> 
+            <label for="id-nome" class="clicavel">Nome:</label> 
             <input type="text" name="nome" id="id-nome">
         </p>
         <p>
-            <label for="id-sobrenome">Sobrenome:</label> 
+            <label for="id-sobrenome" class="clicavel">Sobrenome:</label> 
             <input type="text" name="sobrenome" id="id-sobrenome">
         </p>
         <p>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" class="clicavel">
         </p>
     </form>
 </body>
