@@ -18,6 +18,44 @@
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
     <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+
+    <!-- é possivel combinar mais de um media-feature com os operadores lógicos 'and', 'not', 'or' e 'only'
+
+    or:
+        É isso ou Aquilo.
+            ex: print or screen [Se for um papel OU uma tela, faça isso ...]
+
+    and:
+        soma de 'media queries' em que só fará alguma alteração na página se todos os valores adicionados/combinados retornarem 'true'
+            ex: screen [é uma tela?; Sim, prossiga; Não, pare] > (orientation: portrait)[a tela está em modo retrato?; Sim, execute o programa/estilo; Não, pare]
+        
+    not:
+        Usado para NEGAR uma media-query inteira. Ele é usado para aplicar estilos apenas quando a condição indicada não for atendida. 
+            ex:
+                Estilos aplicados quando a largura da tela for menor ou igual a 600 pixels
+                    @media only screen and (max-width: 600px) {
+                    body {
+                        background-color: lightblue;
+                    }
+                    }
+
+                Estilos aplicados quando a largura da tela for maior que 600 pixels (usando 'not')
+                    @media not only screen and (max-width: 600px) {
+                    body {
+                        background-color: lightgreen;
+                    }
+                    }
+
+    only:
+        Usado para aplicar um estilo apenas se a query inteira for igual. Geralmente é utilizado para garantir que os estilos se apliquem apenas em dispositivos específicos
+            ex:
+                Estilos aplicados apenas a dispositivos com largura de tela menor ou igual a 600 pixels, e apenas em dispositivos que suportam media queries (ignorando dispositivos mais antigos).
+                    @media only screen and (max-width: 600px) {
+                    body {
+                        background-color: lightblue;
+                    }
+                    }
+    -->
     <title>Media Queries</title>
 </head>
 <body>

@@ -10,12 +10,15 @@
     <title>Menu</title>
 </head>
 <!-- 
-    O parametro 'onresize' é relacionado ao javascript que retrata a ideia de "Quando eu mudar o tamanho da tela, faça isso:". Então será rodado o código que estiver dentro da tag, normalmente uma função.
+    O parametro 'onresize' é relacionado ao javascript que retrata a ideia de "Quando eu mudar o tamanho da tela, faça isso:". Então será rodado o código que estiver dentro do parâmetro, normalmente é uma função.
  -->
 <body onresize="mudouTamanho()">
     <header id="cabecalho">
         <h1 class="h1-titulo">NOME DO SITE</h1>
-        <i id="menuIcone" class="material-symbols-outlined" onclick="clickMenu()">menu</i> <!-- o parâmetro 'onclick' é relacionado a "quando eu clicar, faça isso". É bem legal :) -->
+
+        <i id="menuIcone" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+         <!-- o parâmetro 'onclick' é relacionado a "quando eu clicar, faça isso". -->
+
         <menu id="itens" class="menu">
             <ul>
                 <li><a href="#">Home</a></li>

@@ -100,10 +100,10 @@ html, body {
 }
 
 .artigo p {
-    text-indent: 1.5em;
+    text-indent: 2.5em;
     text-align: justify;
     font-size: 1.1em;
-    line-height: 1.5em;
+    line-height: 1.75em;
     padding: 1em 0;
 }
 
