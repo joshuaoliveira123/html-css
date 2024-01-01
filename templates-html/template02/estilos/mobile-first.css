@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* Mobile First */
+
+.container {
+    display: flex;
+    width: 100%;
+    /* apenas para ter uma ideia geral de como e o que vai ser modificado */
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid black;
+    margin: 1px 0;
+}
