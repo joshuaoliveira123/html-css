@@ -7,7 +7,7 @@ Professor _**Gustavo Guanabara**_
 - [x] Modulo 1 do **Curso de HTML 5 e CSS 3**.
 - [x] Modulo 2 do **Curso de HTML 5 e CSS 3**.
 - [x] Modulo 3 do **Curso de HTML 5 e CSS 3**.
-- [ ] Modulo 4 do **Curso de HTML 5 e CSS 3**.
+- [x] Modulo 4 do **Curso de HTML 5 e CSS 3**.
 - [ ] Modulo 5 do **Curso de HTML 5 e CSS 3**.
 
 ---
