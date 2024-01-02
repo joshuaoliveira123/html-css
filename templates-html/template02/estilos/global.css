@@ -22,6 +22,16 @@
 
 */
 
+:root {
+    /* CORES */
+    --cinza: #bababa;
+    --cinza-claro:#fdfffd;
+    --azul: #23445b;
+    --azul-claro: #9ec5df;
+    --verde-num: #23797a;
+    --verde-btn: #23777b;
+}
+
 * {
     margin: 0;
     padding: 0;
