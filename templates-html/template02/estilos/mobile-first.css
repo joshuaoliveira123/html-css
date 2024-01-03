@@ -34,11 +34,8 @@
     display: flex;
     width: 100%;
     /* apenas para ter uma ideia geral de como e o que vai ser modificado */
-    height: 300px;
     background-color: lightblue;
-    border: 1px solid black;
     margin: 10px 0;
-    overflow: hidden;
 }
 
 .rodape {

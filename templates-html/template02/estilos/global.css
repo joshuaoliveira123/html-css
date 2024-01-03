@@ -51,6 +51,11 @@ html, body {
     font-style: normal;
 }
 
+.social-media-icon-2 {
+    font-family: "sosmed-phone-regular";
+    font-style: normal;
+}
+
 a {
     font-weight: bold;
     color: var(--verde-btn);
