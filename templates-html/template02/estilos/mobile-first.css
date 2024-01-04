@@ -7,7 +7,7 @@
     top: 0;
     background-color: var(--cinza-claro);
     align-items: center;
-    height: 60px;
+    height: 10vh;
 }
 
 .container-menu {
@@ -36,6 +36,47 @@
     /* apenas para ter uma ideia geral de como e o que vai ser modificado */
     background-color: lightblue;
     margin: 10px 0;
+}
+
+.c1 {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    background: red url(../imagens/professora-quadro-negro.jpg) left no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container-apresentacao {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+    width: 90%;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+}
+
+.container-apresentacao * {
+    padding: 10px;
+}
+
+.titulo-centro-treinamento {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.titulo-principal {
+    margin: 10px 0;
+}
+
+.container-apresentacao p {
+    text-align: justify;
+    line-height: 1.5em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
 }
 
 .rodape {
