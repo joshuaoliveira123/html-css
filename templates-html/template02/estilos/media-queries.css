@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Media-queries */
 
-/* Tablet e Desktop */
+/* Tablet */
 
 @media screen and (min-width:600px) {
     .c1 {
@@ -10,15 +10,31 @@
     }
 
     .container-apresentacao {
-        width: 50%;
+        max-width: 50%;
     }
 
     .titulo-centro-treinamento {
         font-size: 1em;
     }
 
-    .titulo-principal {
-        font-size: 2em;
+}
+
+/* Desktop */
+
+@media screen and (min-width:1000px) {
+    .container-apresentacao {
+        max-width: 500px;
+    }
+}
+
+/* Desktop & TV */
+
+@media screen and (min-width:1800px) {
+    html, body {
+        zoom: 1.25;
     }
 
+    .cabecalho {
+        height: 60px;
+    }
 }

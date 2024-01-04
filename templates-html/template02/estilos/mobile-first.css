@@ -23,6 +23,7 @@
     padding: 15px;
     color: var(--cinza);
     cursor: pointer;
+    transform: translateY(-6%); /* Gambiarra para deixar o 'logo' na baseline corretamente. MALDITO icone que fica um pouquinho pra cima °~° */
 }
 
 .menu {
@@ -36,6 +37,7 @@
     /* apenas para ter uma ideia geral de como e o que vai ser modificado */
     background-color: lightblue;
     margin: 10px 0;
+    overflow: hidden;
 }
 
 /* ALTERAÇÕES A SEREM FEITAS no "c1" e "container-apresentacao"
@@ -53,12 +55,11 @@
 
 .container-apresentacao {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
     height: 100%;
-    width: 400px;
+    max-width: 290px;
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
 }
 
@@ -75,6 +76,7 @@
 
 .titulo-principal {
     margin: 10px 0;
+    font-size: 2em;
 }
 
 .container-apresentacao p {
