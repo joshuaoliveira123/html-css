@@ -38,6 +38,10 @@
     margin: 10px 0;
 }
 
+/* ALTERAÇÕES A SEREM FEITAS no "c1" e "container-apresentacao"
+    definir um 'height' e um 'width' em vez de percentagem ou viewport
+*/
+
 .c1 {
     display: flex;
     justify-content: center;
@@ -54,7 +58,7 @@
     flex-wrap: wrap;
     align-content: center;
     height: 100%;
-    width: 90%;
+    width: 400px;
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
 }
 
