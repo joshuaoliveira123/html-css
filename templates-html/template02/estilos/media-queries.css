@@ -1,2 +1,24 @@
 @charset "UTF-8";
 /* Media-queries */
+
+/* Tablet e Desktop */
+
+@media screen and (min-width:600px) {
+    .c1 {
+        background-position: bottom;
+        justify-content: left;
+    }
+
+    .container-apresentacao {
+        width: 50%;
+    }
+
+    .titulo-centro-treinamento {
+        font-size: 1em;
+    }
+
+    .titulo-principal {
+        font-size: 2em;
+    }
+
+}
