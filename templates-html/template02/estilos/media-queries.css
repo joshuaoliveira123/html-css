@@ -4,7 +4,7 @@
 /* Tablet */
 
 @media screen and (min-width:600px) {
-    .c1 {
+    .container-principal.c1 {
         background-position: bottom;
         justify-content: left;
     }

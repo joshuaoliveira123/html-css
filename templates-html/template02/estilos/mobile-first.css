@@ -40,7 +40,7 @@
     overflow: hidden;
 }
 
-.c1 {
+.container-principal.c1 {
     display: flex;
     justify-content: center;
     height: 90vh;
