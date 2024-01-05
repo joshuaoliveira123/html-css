@@ -37,6 +37,11 @@
     .container-apresentacao {
         zoom: 1.25;
     }
+
+    .container-coluna {
+        width: 380px;
+        color: var(--cinza-claro);
+    }
 }
 
 /* Desktop & TV */
