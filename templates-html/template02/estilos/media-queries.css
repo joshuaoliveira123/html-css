@@ -10,7 +10,19 @@
     }
 
     .container-apresentacao {
-        max-width: 50%;
+        min-width: 50%;
+        /* background-color: red; */
+    }
+
+    .apresentacao {
+        max-width: 400px;
+        /* background-color: blue; */
+    }
+
+    .apresentacao a {
+        display: block;
+        max-width: 125px;
+        margin: 30px 10px;
     }
 
     .titulo-centro-treinamento {
@@ -23,7 +35,7 @@
 
 @media screen and (min-width:1000px) {
     .container-apresentacao {
-        max-width: 500px;
+        zoom: 1.25;
     }
 }
 
