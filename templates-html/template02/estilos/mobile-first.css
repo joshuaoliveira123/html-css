@@ -1,6 +1,14 @@
 @charset "UTF-8";
 /* Mobile First */
 
+/* Anotações importantes para responsividade
+
+    Definir melhores trocas de telas;
+    Usar como base o site: https://trilha.info/
+    Atentar-se na responsividade e aplicar algo semelhante.
+    
+*/
+
 .cabecalho {
     display: flex;
     position: sticky;
