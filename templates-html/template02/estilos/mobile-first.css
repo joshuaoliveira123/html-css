@@ -20,14 +20,13 @@
 .logo {
     font-family: var(--font-padrao);
     font-size: 1.5em;
-    padding: 15px;
+    padding: 25px;
     color: var(--cinza);
     cursor: pointer;
-    transform: translateY(-6%); /* Gambiarra para deixar o 'logo' na baseline corretamente. MALDITO icone que fica um pouquinho pra cima °~° */
 }
 
 .menu {
-    padding: 15px;
+    padding: 25px;
     cursor: pointer;
 }
 
