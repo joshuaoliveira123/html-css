@@ -39,6 +39,11 @@
     cursor: pointer;
 }
 
+.principal {
+    max-width: 1000px;
+    margin: auto;
+}
+
 .container-principal {
     display: flex;
     width: 100%;
