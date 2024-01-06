@@ -61,7 +61,7 @@
 .container-principal.c1 {
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 600px;
     background: gray url(../imagens/professora-quadro-negro.jpg) left no-repeat;
     background-size: cover;
     color: white;
