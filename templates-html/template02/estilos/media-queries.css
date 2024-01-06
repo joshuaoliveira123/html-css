@@ -3,40 +3,9 @@
 
 /* Tablet */
 
-@media screen and (min-width:600px) {
-    .container-principal.c1 {
-        background-position: bottom;
-        justify-content: left;
-    }
-
-    .container-apresentacao {
-        min-width: 50%;
-        /* background-color: red; */
-    }
-
-    .apresentacao {
-        max-width: 400px;
-        /* background-color: blue; */
-    }
-
-    .apresentacao a {
-        display: block;
-        max-width: 125px;
-        margin: 30px 10px;
-    }
-
-    .titulo-centro-treinamento {
-        font-size: 1em;
-    }
-
-}
-
 /* Desktop */
 
 @media screen and (min-width:1000px) {
-    .container-apresentacao {
-        zoom: 1.25;
-    }
 
     .container-coluna {
         width: 380px;
@@ -45,13 +14,3 @@
 }
 
 /* Desktop & TV */
-
-@media screen and (min-width:1800px) {
-    html, body {
-        zoom: 1.25;
-    }
-
-    .cabecalho {
-        height: 60px;
-    }
-}
