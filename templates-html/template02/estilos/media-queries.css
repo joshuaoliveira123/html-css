@@ -3,6 +3,16 @@
 
 /* Tablet */
 
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    .container-numbers {
+        max-width: 750px;
+    }
+
+    .number {
+        max-width: 45%;
+    }
+}
+
 /* Desktop */
 
 @media screen and (min-width:1000px) {
