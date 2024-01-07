@@ -190,6 +190,7 @@
     padding: 20px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.45);
     z-index: 0;
+    transition: width 1500ms ease;
 }
 
 .imagem-number {
