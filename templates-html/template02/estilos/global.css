@@ -54,12 +54,28 @@ html, body {
 .social-media-icon {
     font-family: "social-media-circled";
     font-style: normal;
+    color: var(--verde-num);
+    font-size: 2.25em;
+    cursor: pointer;
+    padding: 10px;
+    transition: 100ms ease;
 }
+
+.social-media-icon:hover {color: var(--azul); transform: translateY(-1%);}
+
+.social-media-icon:active {color: var(--azul-forte);}
 
 .social-media-icon-2 {
     font-family: "sosmed-phone-regular";
     font-style: normal;
+    color: var(--verde-num);
+    font-size: 6em;
+    cursor: pointer;
 }
+
+.social-media-icon-2:hover {color: var(--azul); transform: translateY(-1%);}
+
+.social-media-icon-2:active {color: var(--azul-forte);}
 
 .btn-1 {
     text-shadow: none;
