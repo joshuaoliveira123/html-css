@@ -12,6 +12,9 @@
 /* ESTUDAR
     aspect-ratio: 16/9;
         parece interessante para definir uma proporção de imagem, vídeo ou como sections  de 100% da tela do usuário.
+
+    gap;
+        Sei mais ou menos o que faz, mas é preciso aprender mais para usar de forma mais eficiente.
 */
 
 .cabecalho {
@@ -174,14 +177,15 @@
 
 .container-numbers {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 90%;
     transform: translateY(-70px);
+    gap: 20px;
 }
 
 .number {
     background-color: var(--cinza-num);
-    margin: 10px auto;
     width: 100%;
     padding: 20px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.45);
@@ -204,7 +208,12 @@
 }
 
 .number > * {
-    padding: 13px 0;
+    padding: 15px 0;
+}
+
+.number > p {
+    font-size: 0.8em;
+    text-align: justify;
 }
 
 .container-principal.c4 {

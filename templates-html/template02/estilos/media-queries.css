@@ -11,6 +11,11 @@
         width: 380px;
         color: var(--cinza-claro);
     }
+
+    .container-numbers {
+        flex-wrap: nowrap;
+        max-width: 1000px;
+    }
 }
 
 /* Desktop & TV */
