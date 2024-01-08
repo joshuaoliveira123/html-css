@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            /* padding: 0; */
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        table {
+            margin: 50px auto;
+            /* border-collapse: collapse; */
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Parâmetro 'cellspacing' e 'cellpadding'
+
+        São formas de controlar o padding e o gap entre as celulas, ou nas celulas propriamente ditas.
+        Parecem interessantes, mas não são muito usuais, já que para o funcionamento da 'cellpadding' não é possivel definir a propriedade global nas CSS como 'padding="0"'. Além de que o 'cellspacing', mesmo em '0(zero)', apresenta uma linha mais grossa entre as celulas, isso se deve ao fato de não ocorrer uma "border-collapse" apenas um 'gap="0"'.
+
+     -->
+    <table cellspacing="0" cellpadding="4">
+       <thead>
+           <td>Name</td>
+  <td>Age</td>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Carlos</td>
+    <td>20</td>
+  </tr>
+   <tr>
+    <td>Daniela</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>Bruno</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>Rafaela</td>
+    <td>24</td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
