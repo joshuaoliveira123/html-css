@@ -171,7 +171,22 @@
 }
 
 .curva > p {
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
+
+    /* font-size: max(3vw, 15px); Identico*/
+        /* font-size: max(15px, 3vw); Identico*/
+
+    /* font-size: min(3vw, 15px); Identico*/
+        /* font-size: min(15px, 3vw);  Identico*/
+
+    /* font-size: min(max(12px, 3vw), 20px);
+        Crescente:
+            12px = tamanho mínimo;
+            3vw = fator de crescimento entre mínimo e máximo
+            20px = tamanho máximo
+    */
+
+    font-size: clamp(0.7em, 3.5vw, 1em); /* Mesma lógica do min(max(12px, 3vw), 20px) */
     width: 100%;
 }
 
