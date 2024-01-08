@@ -12,6 +12,8 @@
         width: 45%;
     }
 
+    .cartoes-pessoais:nth-last-child(2) {margin: 0 0 30px;}
+
     .container-cartoes-pessoais {
         width: 750px;
         justify-content: center;
