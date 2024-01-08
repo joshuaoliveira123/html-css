@@ -23,7 +23,7 @@
     top: 0;
     background-color: var(--cinza-claro);
     align-items: center;
-    height: 10vh;
+    height: clamp(60px, 10vh, 80px);
     z-index: 100;
 }
 
