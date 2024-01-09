@@ -95,8 +95,36 @@ html, body {
     transform: translateY(-2%);
 }
 
+/* COLOR-MIX( in [color-space], [color1] [percentage], [color2] [percentage])
+
+    color-spaces:
+        <rectangular-color-space> = 
+            srgb          |
+            srgb-linear   |
+            display-p3    |
+            a98-rgb       |
+            prophoto-rgb  |
+            rec2020       |
+            lab           |
+            oklab         |
+            xyz           |
+            xyz-d50       |
+            xyz-d65       
+
+        <polar-color-space> = 
+            hsl    |
+            hwb    |
+            lch    |
+            oklch  |
+
+        <hue-interpolation-method> = 
+            [ shorter | longer | increasing | decreasing ] hue 
+
+    Útil para sombrear algum tipo de interação sem precisar criar ou modificar nenhuma das variaveis no ':root'. Como clicar em botões, por exemplo, ou apenas passar o mouse em cima de links, e claro, ambos se assim preferir.
+*/
+
 .btn-1:active {
-    background-color: var(--azul-forte);
+    background-color: color-mix(in srgb, var(--azul), black 30%);
     color: white;
 }
 
