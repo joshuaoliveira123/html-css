@@ -280,7 +280,12 @@
     transform: translateY(clamp(-30px, -5vw, -50px));
 }
 
+/* BACKDROP-FILTER:
+    Estudar mais. Essa coisa é muito maneira e bela.
+*/
+
 .container-principal.c6 {
+    backdrop-filter: blur(8px);
     background-color: transparent;
     justify-content: center;
     background-size: cover;
