@@ -342,7 +342,6 @@
     border-radius: 20px;
     width: max(1100px, 1vw);
     height: clamp(240px, 75vw, 600px);
-    /* aspect-ratio: 18/10; */
     margin: auto;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
 }
@@ -350,41 +349,39 @@
 .container-cartoes-flutuantes {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     gap: 10px;
-    color: var(--verde-num);
+    margin: auto;
+    transform: translateY(-20%);
+    transition: transform 1s ease;
 }
 
 .cartoes-flutuantes {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
-    width: 230px;
-    height: 150px;
-    border-radius: 15px;
+    flex-wrap: wrap;
+    align-content: space-between;
     background-color: color-mix(in srgb, var(--azul-claro), white 85%);
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
-    gap: 15px;
-    transform: translateY(-40%);
-}
-
-.cartoes-flutuantes > *{
-    width: 100%;
-    text-align: center;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    width: 45%;
 }
 
 .cartoes-flutuantes > h3 {
-    text-transform: capitalize;
-    /* font-variant: small-caps; */
-    font-size: clamp(1em, 2vw, 1.5em);
-    width: clamp(120px, 10vw, 150px);
+    font-size: clamp(0.8em, 2vw, 1em);
+    color: var(--verde-num);
+    text-align: center;
+    padding: 10px;
+    width: 79%;
 }
 
 .cartoes-flutuantes > h4 {
-    font-size: clamp(2.5em, 3vw, 4em);
+    font-size: clamp(2em, 5vw, 3em);
+    color: var(--verde-num);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
 }
 
 .container-principal.c8 {

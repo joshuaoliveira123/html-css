@@ -23,13 +23,18 @@
         width: 45%;
     }
 
+    .container-cartoes-flutuantes {
+        width: 750px;
+        gap: 20px;
+        transform: translateY(-40%);
+    }
+
     .cartoes-flutuantes {
-        width: clamp(135px, 20vw, 220px);
-        height: clamp(150px, 20vw, 230px);
+        width: 22.5%;
     }
 
     .cartoes-flutuantes > h4 {
-        font-size: clamp(2em, 4vw, 3em);
+        margin: 1vw 0;
     }
 }
 
