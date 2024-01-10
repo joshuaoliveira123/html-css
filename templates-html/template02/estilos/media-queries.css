@@ -25,7 +25,6 @@
 
     .container-cartoes-flutuantes {
         width: 750px;
-        gap: 20px;
         transform: translateY(-40%);
     }
 
