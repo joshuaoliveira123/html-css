@@ -55,6 +55,11 @@ html, body {
     background-size: cover;
 }
 
+.principal {
+    max-width: 1500px;
+    margin: auto;
+}
+
 .social-media-icon {
     font-family: "social-media-circled";
     font-style: normal;

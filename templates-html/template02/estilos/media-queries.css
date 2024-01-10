@@ -22,6 +22,15 @@
     .cartoes-pessoais {
         width: 45%;
     }
+
+    .cartoes-flutuantes {
+        width: clamp(135px, 20vw, 220px);
+        height: clamp(150px, 20vw, 230px);
+    }
+
+    .cartoes-flutuantes > h4 {
+        font-size: clamp(2em, 4vw, 3em);
+    }
 }
 
 /* Desktop */

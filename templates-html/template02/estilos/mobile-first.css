@@ -47,11 +47,6 @@
     cursor: pointer;
 }
 
-.principal {
-    max-width: 1500px;
-    margin: auto;
-}
-
 .container-principal {
     display: flex;
     width: 100%;
@@ -319,7 +314,77 @@
 }
 
 .container-principal.c7 {
-    /* propriedades */
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 10px;
+}
+
+.container-principal.c7 > h2 {
+    width: calc(100% - 20px);
+    margin: 30px auto 0;
+    text-align: center;
+    font-size: clamp(1.8em, 5vw, 2.3em);
+    font-weight: 800;
+    color: var(--azul);
+}
+
+.container-principal.c7 > p {
+    width: calc(100% - 20px);
+    margin: 0 auto 10px;
+    text-align: center;
+    font-size: clamp(0.8em, 3vw, 1em);
+    color: var(--azul);
+}
+
+.imagem-apontar-cima {
+    background: white url(../imagens/mulher-apontando-para-cima.jpg) bottom no-repeat scroll;
+    background-size: cover;
+    border-radius: 20px;
+    width: max(1100px, 1vw);
+    height: clamp(240px, 75vw, 600px);
+    /* aspect-ratio: 18/10; */
+    margin: auto;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-cartoes-flutuantes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    color: var(--verde-num);
+}
+
+.cartoes-flutuantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 230px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: color-mix(in srgb, var(--azul-claro), white 85%);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    gap: 15px;
+    transform: translateY(-40%);
+}
+
+.cartoes-flutuantes > *{
+    width: 100%;
+    text-align: center;
+}
+
+.cartoes-flutuantes > h3 {
+    text-transform: capitalize;
+    /* font-variant: small-caps; */
+    font-size: clamp(1em, 2vw, 1.5em);
+    width: clamp(120px, 10vw, 150px);
+}
+
+.cartoes-flutuantes > h4 {
+    font-size: clamp(2.5em, 3vw, 4em);
 }
 
 .container-principal.c8 {
