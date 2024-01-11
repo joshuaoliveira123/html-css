@@ -386,8 +386,30 @@
 }
 
 .container-principal.c8 {
-    /* propriedades */
+    background-color: white;
+    flex-wrap: wrap;
 }
+
+.container-principal.c8 > .contatos {
+    border: 1px solid;
+    width: 100%;
+}
+
+.container-principal.c8 > .contatos:nth-child(1) {
+    border: 1px solid red;
+}
+
+.whatsapp {color: var(--verde-app);}
+
+.whatsapp:hover {color: color-mix(in srgb, var(--verde-app), black 20%);}
+
+.whatsapp:active {color: color-mix(in srgb, var(--verde-app), black 60%);}
+
+.live-chat {color: var(--cinza-chat);}
+
+.live-chat:hover {color: color-mix(in srgb, var(--cinza-chat), black 20%);}
+
+.live-chat:active {color: color-mix(in srgb, var(--cinza-chat), black 60%);}
 
 .rodape {
     display: flex;
