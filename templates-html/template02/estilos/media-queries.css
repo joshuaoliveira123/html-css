@@ -35,6 +35,12 @@
     .cartoes-flutuantes > h4 {
         margin: 1vw 0;
     }
+
+    .container-principal.c8 > .contatos {width: 50%;}
+
+    .container-principal.c8 > .contatos:nth-child(1) {
+        width: 100%;
+    }
 }
 
 /* Desktop */
@@ -69,6 +75,12 @@
     }
 
     .social-media-icon {font-size: 2em;}
+
+    .container-principal.c8 > .contatos {width: calc(100%/3);}
+
+    .container-principal.c8 > .contatos:nth-child(1) {
+        width: calc(100%/3);
+    }
 }
 
 /* Desktop & TV */

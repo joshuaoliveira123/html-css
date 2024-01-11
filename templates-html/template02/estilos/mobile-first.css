@@ -383,10 +383,7 @@
 .container-principal.c8 > .contatos {
     border: 1px solid;
     width: 100%;
-}
-
-.container-principal.c8 > .contatos:nth-child(1) {
-    border: 1px solid red;
+    text-align: center;
 }
 
 .whatsapp {color: var(--verde-app);}

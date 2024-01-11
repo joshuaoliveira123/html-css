@@ -35,6 +35,8 @@
     --azul-claro: #9ec5df;
     --verde-num: #23797a;
     --verde-btn: #23777b;
+    --verde-btn-hover: color-mix(in srgb, var(--verde-btn), black 20%);
+    --verde-btn-active: color-mix(in srgb, var(--verde-btn), black 60%);
     --verde-app: #3ee03e;
     --verde-app-hover: color-mix(in srgb, var(--verde-app), black 20%);
     --verde-app-active: color-mix(in srgb, var(--verde-app), black 60%);
@@ -209,8 +211,30 @@ html, body {
 }
 
 .btn-3 {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    cursor: pointer;
     background-color: var(--verde-btn);
     color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    transition: transform 100ms ease;
+}
+
+.btn-3:hover {
+    background-color: var(--verde-btn-hover);
+    text-decoration: none;
+    transform: translateY(2%);
+}
+
+.btn-3:active {
+    background-color: var(--verde-btn-active);
+    transform: translateY(5%);
 }
 
 a {
