@@ -50,8 +50,6 @@
 .container-principal {
     display: flex;
     width: 100%;
-    /* apenas para ter uma ideia geral de como e o que vai ser modificado */
-    background-color: lightblue;
 }
 
 .container-principal.c1 {
@@ -74,19 +72,17 @@
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
 }
 
-.apresentacao {
+.container-apresentacao > .apresentacao {
     justify-content: center;
 }
 
-.apresentacao a {
+.container-apresentacao > .apresentacao a {
     display: block;
     max-width: 250px;
     margin: 30px auto;
 }
 
-.container-apresentacao * {
-    padding: 10px;
-}
+.container-apresentacao * {padding: 10px;}
 
 .titulo-centro-treinamento {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -176,9 +172,7 @@
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.number > * {
-    padding: 15px 0;
-}
+.number > * {padding: 15px 0;}
 
 .number > p {
     font-size: 0.8em;
@@ -297,9 +291,7 @@
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
-.conteudo-c6 > * {
-    margin: 30px 0;
-}
+.conteudo-c6 > * {margin: 30px 0;}
 
 .conteudo-c6 > h2 {
     color: var(--verde-num);
@@ -309,9 +301,7 @@
     margin: 0 0 30px;
 }
 
-.conteudo-c6 > p {
-    font-size: clamp(0.8em, 2vw, 1em);
-}
+.conteudo-c6 > p {font-size: clamp(0.8em, 2vw, 1em);}
 
 .container-principal.c7 {
     flex-wrap: wrap;
