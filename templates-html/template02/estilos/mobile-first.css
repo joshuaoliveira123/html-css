@@ -381,10 +381,45 @@
 }
 
 .container-principal.c8 > .contatos {
-    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
     text-align: center;
+    padding: 30px;
+    margin: 5px 0;
 }
+
+.container-principal.c8 > .contatos:first-child {margin-top: 100px;}
+
+.container-principal.c8 > .contatos:last-child {margin-bottom: 100px;}
+
+.contatos h2 {
+    width: 100%;
+    margin: 20px;
+    font-weight: normal;
+    font-size: clamp(1.5em, 3vw, 1.8em);
+}
+
+.contatos p {
+    width: 100%;
+    margin: 20px;
+    font-size: clamp(0.8em, 3vw, 1em);
+}
+
+.contatos input[type="submit"] {border: none;}
+
+.contatos input[type="email"] {
+    width: clamp(100px, 80vw, 300px);
+    border: none;
+    outline: 1px solid var(--azul);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contatos input[type="email"]:focus-within {outline: 2px solid var(--azul);}
 
 .whatsapp {color: var(--verde-app);}
 

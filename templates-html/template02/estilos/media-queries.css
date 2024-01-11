@@ -41,6 +41,8 @@
     .container-principal.c8 > .contatos:nth-child(1) {
         width: 100%;
     }
+
+    .container-principal.c8 > .contatos:nth-last-child(2) {margin-bottom: 100px;}
 }
 
 /* Desktop */
@@ -76,7 +78,10 @@
 
     .social-media-icon {font-size: 2em;}
 
-    .container-principal.c8 > .contatos {width: calc(100%/3);}
+    .container-principal.c8 > .contatos {
+        width: calc(100%/3);
+        margin: 100px 0;
+    }
 
     .container-principal.c8 > .contatos:nth-child(1) {
         width: calc(100%/3);

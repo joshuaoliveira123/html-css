@@ -212,8 +212,7 @@ html, body {
 
 .btn-3 {
     display: block;
-    width: 90%;
-    max-width: 500px;
+    width: clamp(100px, 80vw, 300px);
     cursor: pointer;
     background-color: var(--verde-btn);
     color: white;
