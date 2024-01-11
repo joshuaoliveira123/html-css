@@ -401,15 +401,15 @@
 
 .whatsapp {color: var(--verde-app);}
 
-.whatsapp:hover {color: color-mix(in srgb, var(--verde-app), black 20%);}
+.whatsapp:hover {color: var(--verde-app-hover);}
 
-.whatsapp:active {color: color-mix(in srgb, var(--verde-app), black 60%);}
+.whatsapp:active {color: var(--verde-app-active)}
 
 .live-chat {color: var(--cinza-chat);}
 
-.live-chat:hover {color: color-mix(in srgb, var(--cinza-chat), black 20%);}
+.live-chat:hover {color: var(--cinza-chat-hover)}
 
-.live-chat:active {color: color-mix(in srgb, var(--cinza-chat), black 60%);}
+.live-chat:active {color: var(--cinza-chat-active)}
 
 .rodape {
     display: flex;
