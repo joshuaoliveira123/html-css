@@ -261,3 +261,7 @@ a:active {color: var(--azul);}
 #linkLogo:hover {text-decoration: none;}
 
 #linkLogo:active {color: var(--cinza-chat);}
+
+/* OBSERVAÇÃO
+    Não usar demais a propriedade clamp() para não gerar bugs em resoluções, principalmente em celulares quando a opção "ver no computador" estiver ativa. Procure usar media-queries para fazer 'grandes' trocas de tamanho, principalmente em textos.
+*/
