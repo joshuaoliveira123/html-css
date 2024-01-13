@@ -354,12 +354,12 @@
     </footer>
     <script>
         function abrirMenu() {
-            if (idMenu.style.display == 'none') {
-                idMenu.style.display = 'block'
-                iconeMenu.innerHTML = 'close'
-            } else {
+            if (idMenu.style.display == 'block') {
                 idMenu.style.display = 'none'
                 iconeMenu.innerHTML = 'menu'
+            } else {
+                idMenu.style.display = 'block'
+                iconeMenu.innerHTML = 'close'
             }
         }
     </script>
