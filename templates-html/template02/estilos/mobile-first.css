@@ -19,19 +19,12 @@
 
 .cabecalho {
     display: flex;
-    flex-wrap: wrap;
     position: sticky;
     top: 0;
     background-color: var(--cinza-claro);
     align-items: center;
     height: clamp(60px, 10vh, 80px);
     z-index: 100;
-}
-
-#menu {
-    /* display: none; */
-    width: 100%;
-    background-color: red;
 }
 
 .container-menu {
