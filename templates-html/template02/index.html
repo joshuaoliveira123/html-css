@@ -17,8 +17,15 @@
         <section class="container-menu">
             <h1 class="logo"><a id="linkLogo" href="#">logo</a></h1>
             <nav class="menu">
-                <i class="material-symbols-outlined">menu</i>
+                <i id="iconeMenu" onclick="abrirMenu()" class="material-symbols-outlined">menu</i>
             </nav>
+            <menu id="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Time</li>
+                    <li>Contato</li>
+                </ul>
+            </menu>
         </section>
     </header>
     <main class="principal">
@@ -347,5 +354,16 @@
             </p>
         </section>
     </footer>
+    <script>
+        function abrirMenu() {
+            if (menu.style.display == 'none') {
+                menu.style.display = 'block'
+                iconeMenu.innerHTML = 'close'
+            } else {
+                menu.style.display = 'none'
+                iconeMenu.innerHTML = 'menu'
+            }
+        }
+    </script>
 </body>
 </html>
