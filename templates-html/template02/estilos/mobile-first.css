@@ -18,11 +18,9 @@
 */
 
 .cabecalho {
-    display: flex;
     position: sticky;
     top: 0;
     background-color: var(--cinza-claro);
-    align-items: center;
     height: clamp(60px, 10vh, 80px);
     z-index: 100;
 }
@@ -30,8 +28,9 @@
 .container-menu {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     width: 100%;
+    height: 100%;
 }
 
 .logo {
@@ -42,9 +41,42 @@
     cursor: pointer;
 }
 
-.menu {
+#iconeMenu {
     padding: 25px;
     cursor: pointer;
+}
+
+#idMenu {
+    display: none;
+    text-align: center;
+    background-color: color-mix(in srgb, white, transparent 50%);
+    backdrop-filter: blur(5px);
+}
+
+#idMenu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+#idMenu a {
+    width: 100%;
+    color: black;
+}
+
+#idMenu a:hover {
+    text-decoration: none;
+    background-color: var(--cinza-forte);
+    color: white;
+}
+
+#idMenu a:active {
+    background-color: var(--idMenu-active);
+}
+
+#idMenu li {
+    padding: 12px;
+    border-bottom: 1px solid var(--cinza-claro);
 }
 
 .container-principal {

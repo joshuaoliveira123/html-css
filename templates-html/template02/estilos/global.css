@@ -27,6 +27,8 @@
     --cinza: #bababa;
     --cinza-num: #e0e0e0;
     --cinza-claro:#fdfffd;
+    --cinza-forte: gray;
+    --idMenu-active: color-mix(in srgb, var(--cinza-forte), black 30%);
     --cinza-chat: #799992;
     --cinza-chat-hover: color-mix(in srgb, var(--cinza-chat), black 20%);
     --cinza-chat-active: color-mix(in srgb, var(--cinza-chat), black 60%);
