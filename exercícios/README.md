@@ -65,7 +65,7 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 * [ex021 - tabela08](https://joshuaoliveira123.github.io/html-css/exercícios/ex021/tabela08.html);
 
 ---
-## - [ ] Modulo 4
+## - [x] Modulo 4
 ---
 
 * [ex022 - iframe01](https://joshuaoliveira123.github.io/html-css/exercícios/ex022/iframe01.html);
@@ -89,6 +89,7 @@ Segue abaixo os links para visualização dos exercícios, segmentado em modulos
 * [ex025 - mq01](https://joshuaoliveira123.github.io/html-css/exercícios/ex025/mq01/);
 * [ex025 - mq02](https://joshuaoliveira123.github.io/html-css/exercícios/ex025/mq02/);
 * [ex025 - mq03](https://joshuaoliveira123.github.io/html-css/exercícios/ex025/mq03/);
+* [ex026](https://joshuaoliveira123.github.io/projeto-login/);
 
 ---
 ## - [ ] Modulo 5
