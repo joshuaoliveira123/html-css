@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="Teste, Javascript, Soma">
+    <meta name="keywords" content="Teste, Javascript, Soma">
+    <title>Teste número 13</title>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.cnOVgs5YOwYr23b1FeIc4QAAAA?rs=1&pid=ImgDetMain" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(to right, rgb(143, 0, 0), rgb(255, 0, 0), rgb(223, 223, 3));
+        }
+
+        .flex-box {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            align-content: start;
+            flex-wrap: wrap;
+            width: 300px;
+            height: 500px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(50px);
+            overflow-y: scroll;
+            
+        }
+        
+        .box > * {
+            flex-grow: 1;
+            flex-basis: 50px;
+            margin-bottom: 10px;
+        }
+        
+        #OutputEscrita {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-box">
+        <div class="box">
+            <input type="text" name="Nome" id="IdNome">
+            <input type="submit" value="Enviar" onclick="mostrarNaTela()">
+            <div id="OutputEscrita"></div>
+        </div>
+    </div>
+
+    <script>
+        function mostrarNaTela() {
+            var texto = document.getElementById("IdNome")
+            var output1 = document.getElementById("OutputEscrita")
+            output1.innerHTML = "<p>" + texto.value + "</p>"
+        }
+    </script>
+</body>
+</html>
