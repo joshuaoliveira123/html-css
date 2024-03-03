@@ -19,6 +19,7 @@
             width: 100vw;
             height: 100vh;
             background-image: linear-gradient(to right, rgb(143, 0, 0), rgb(255, 0, 0), rgb(223, 223, 3));
+            color: white;
         }
 
         .flex-box {
@@ -35,7 +36,7 @@
             align-items: start;
             align-content: start;
             flex-wrap: wrap;
-            width: 300px;
+            width: 80%;
             height: 500px;
             padding: 20px;
             background-color: rgba(0, 0, 0, 0.2);
@@ -44,10 +45,14 @@
             
         }
         
-        .box > * {
+        .box > :nth-child(2) {
             flex-grow: 1;
-            flex-basis: 50px;
+            flex-basis: 260px;
             margin-bottom: 10px;
+        }
+
+        .box > :nth-last-child(1) {
+            width: 100%;
         }
         
         #OutputEscrita {
@@ -60,7 +65,8 @@
 </head>
 <body>
     <div class="flex-box">
-        <div class="box">
+        <div id="NovaDiv" class="box">
+            <label for="IdNome">Escreva:</label>
             <input type="text" name="Nome" id="IdNome">
             <input type="submit" value="Enviar" onclick="mostrarNaTela()">
             <div id="OutputEscrita"></div>
@@ -71,7 +77,8 @@
         function mostrarNaTela() {
             var texto = document.getElementById("IdNome")
             var output1 = document.getElementById("OutputEscrita")
-            output1.innerHTML = "<p>" + texto.value + "</p>"
+
+            output1.innerHTML += "<p>" + texto.value + "</p>"
         }
     </script>
 </body>
