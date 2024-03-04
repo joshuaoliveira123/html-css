@@ -31,6 +31,23 @@ html, body, .container {
     width: 1px;
     height: 100px;
     position: absolute;
-    top: 1em;
+    top: 0;
     left: 0;
+    animation: animacao-da-barrinha 1500ms ease;
+}
+
+@keyframes animacao-da-barrinha {
+    0% {
+        top: 0;
+    }
+    
+    50% {
+        top: 50%;
+        height: 80px;
+    }
+    
+    100% {
+        top: 0;
+        left: 0;
+    }
 }
